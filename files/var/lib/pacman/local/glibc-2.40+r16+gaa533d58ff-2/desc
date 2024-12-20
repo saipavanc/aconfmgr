@@ -1,0 +1,52 @@
+%NAME%
+glibc
+
+%VERSION%
+2.40+r16+gaa533d58ff-2
+
+%BASE%
+glibc
+
+%DESC%
+GNU C Library
+
+%URL%
+https://www.gnu.org/software/libc
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1722888052
+
+%INSTALLDATE%
+1733716333
+
+%PACKAGER%
+Frederik Schwan <freswa@archlinux.org>
+
+%SIZE%
+49951770
+
+%REASON%
+1
+
+%LICENSE%
+GPL-2.0-or-later
+LGPL-2.1-or-later
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+linux-api-headers>=4.10
+tzdata
+filesystem
+
+%OPTDEPENDS%
+gd: for memusagestat
+perl: for mtrace
+
+%XDATA%
+pkgtype=split
+

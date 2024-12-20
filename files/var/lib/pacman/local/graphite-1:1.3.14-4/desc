@@ -1,0 +1,52 @@
+%NAME%
+graphite
+
+%VERSION%
+1:1.3.14-4
+
+%BASE%
+graphite
+
+%DESC%
+reimplementation of the SIL Graphite text processing engine
+
+%URL%
+https://github.com/silnrsi/graphite
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1719948459
+
+%INSTALLDATE%
+1733716343
+
+%PACKAGER%
+Andreas Radke <andyrtr@archlinux.org>
+
+%SIZE%
+207019
+
+%REASON%
+1
+
+%LICENSE%
+LGPL-2.1-or-later OR MPL-2.0 OR GPL-2.0-or-later
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+gcc-libs
+glibc
+
+%OPTDEPENDS%
+graphite-docs: Documentation
+
+%PROVIDES%
+libgraphite2.so=3-64
+
+%XDATA%
+pkgtype=split
+

@@ -1,0 +1,17 @@
+%FILES%
+etc/
+etc/reflector-simple-tool.conf
+etc/reflector-simple.conf
+usr/
+usr/bin/
+usr/bin/eos-latest-arch-mirrorlist
+usr/bin/mirrorlist-rank-info
+usr/bin/reflector-simple
+usr/share/
+usr/share/applications/
+usr/share/applications/reflector-simple.desktop
+
+%BACKUP%
+etc/reflector-simple.conf	4dbc0a246a5bbcd78b3a0f97cc675a59
+etc/reflector-simple-tool.conf	57f55a1e6aefe5f4651741ff49a47025
+

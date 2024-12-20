@@ -1,0 +1,46 @@
+%NAME%
+wildmidi
+
+%VERSION%
+0.4.6-1
+
+%BASE%
+wildmidi
+
+%DESC%
+Simple software MIDI player which has a core softsynth library
+
+%URL%
+https://github.com/Mindwerks/wildmidi
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1713565833
+
+%INSTALLDATE%
+1733716461
+
+%PACKAGER%
+Balló György <bgyorgy@archlinux.org>
+
+%SIZE%
+181345
+
+%REASON%
+1
+
+%LICENSE%
+GPL-3.0-or-later AND LGPL-3.0-or-later
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+alsa-lib
+glibc
+
+%XDATA%
+pkgtype=pkg
+

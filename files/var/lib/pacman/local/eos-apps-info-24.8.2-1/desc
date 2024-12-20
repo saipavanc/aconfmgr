@@ -1,0 +1,49 @@
+%NAME%
+eos-apps-info
+
+%VERSION%
+24.8.2-1
+
+%BASE%
+eos-apps-info
+
+%DESC%
+Documentation about apps in the EndeavourOS repository.
+
+%URL%
+https://github.com/endeavouros-team/PKGBUILDS/tree/master/eos-apps-info
+
+%ARCH%
+any
+
+%BUILDDATE%
+1724846666
+
+%INSTALLDATE%
+1733716465
+
+%PACKAGER%
+manuel <manuel@endeavouros.com>
+
+%SIZE%
+372982
+
+%LICENSE%
+GPL
+
+%VALIDATION%
+sha256
+pgp
+
+%DEPENDS%
+bash
+eos-bash-shared
+yad
+
+%OPTDEPENDS%
+pandoc: generate html pages from github-markdown and man files
+imagemagick: save space with picture files
+
+%XDATA%
+pkgtype=pkg
+

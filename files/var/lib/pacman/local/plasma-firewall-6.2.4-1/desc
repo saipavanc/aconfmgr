@@ -1,0 +1,61 @@
+%NAME%
+plasma-firewall
+
+%VERSION%
+6.2.4-1
+
+%BASE%
+plasma-firewall
+
+%DESC%
+Control Panel for your system firewall
+
+%URL%
+https://kde.org/plasma-desktop/
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1732707774
+
+%INSTALLDATE%
+1733716482
+
+%PACKAGER%
+Tomaz Canabrava <tcanabrava@archlinux.org>
+
+%SIZE%
+1323094
+
+%GROUPS%
+plasma
+
+%LICENSE%
+GPL-2.0-or-later
+LGPL-2.0-or-later
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+gcc-libs
+glibc
+kauth
+kcmutils
+kconfig
+kcoreaddons
+ki18n
+kirigami
+qt6-base
+qt6-declarative
+
+%OPTDEPENDS%
+firewalld: firewalld backend
+iproute2: netstat backend
+python: ufw backend
+ufw: ufw backend
+
+%XDATA%
+pkgtype=pkg
+

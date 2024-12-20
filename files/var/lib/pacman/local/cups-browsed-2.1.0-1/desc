@@ -1,0 +1,47 @@
+%NAME%
+cups-browsed
+
+%VERSION%
+2.1.0-1
+
+%BASE%
+cups-browsed
+
+%DESC%
+a helper daemon to browse the network for remote CUPS queues and IPP network printers
+
+%URL%
+https://wiki.linuxfoundation.org/openprinting/cups-filters
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1729272457
+
+%INSTALLDATE%
+1733716470
+
+%PACKAGER%
+Andreas Radke <andyrtr@archlinux.org>
+
+%SIZE%
+574415
+
+%LICENSE%
+Apache-2.0 WITH LLVM-exception
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+libcups
+libcupsfilters
+libppd
+avahi
+glib2
+glibc
+
+%XDATA%
+pkgtype=pkg
+

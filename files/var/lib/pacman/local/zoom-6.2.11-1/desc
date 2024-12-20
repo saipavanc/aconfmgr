@@ -1,0 +1,74 @@
+%NAME%
+zoom
+
+%VERSION%
+6.2.11-1
+
+%BASE%
+zoom
+
+%DESC%
+Video Conferencing and Web Conferencing Service
+
+%URL%
+https://zoom.us/
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1733716807
+
+%INSTALLDATE%
+1733716817
+
+%PACKAGER%
+Unknown Packager
+
+%SIZE%
+722464606
+
+%LICENSE%
+LicenseRef-zoom
+
+%VALIDATION%
+none
+
+%DEPENDS%
+fontconfig
+glib2
+libpulse
+libsm
+ttf-font
+libx11
+libxtst
+libxcb
+libxcomposite
+libxfixes
+libxi
+libxcursor
+libxkbcommon-x11
+libxrandr
+libxrender
+libxshmfence
+libxslt
+mesa
+nss
+xcb-util-image
+xcb-util-keysyms
+xcb-util-cursor
+dbus
+libdrm
+gtk3
+qt5-webengine
+qt5-remoteobjects
+
+%OPTDEPENDS%
+pulseaudio-alsa: audio via PulseAudio
+ibus: remote control
+picom: extra compositor needed by some window managers for screen sharing
+xcompmgr: extra compositor needed by some window managers for screen sharing
+
+%XDATA%
+pkgtype=pkg
+

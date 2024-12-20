@@ -1,0 +1,53 @@
+%NAME%
+eos-log-tool
+
+%VERSION%
+24.8.1-1
+
+%BASE%
+eos-log-tool
+
+%DESC%
+Gathers selected system logs and sends them to the internet.
+
+%URL%
+https://github.com/endeavouros-team/PKGBUILDS/raw/master/eos-log-tool
+
+%ARCH%
+any
+
+%BUILDDATE%
+1724252471
+
+%INSTALLDATE%
+1733716465
+
+%PACKAGER%
+manuel <manuel@endeavouros.com>
+
+%SIZE%
+25888
+
+%LICENSE%
+GPL
+
+%VALIDATION%
+sha256
+pgp
+
+%DEPENDS%
+eos-bash-shared
+yad
+net-tools
+pciutils
+usbutils
+
+%OPTDEPENDS%
+expac: for showing native packages (much faster)
+xclip: for automatic copying the returned URL to clipboard
+inxi: for inxi logs
+polkit: for pkexec
+
+%XDATA%
+pkgtype=pkg
+

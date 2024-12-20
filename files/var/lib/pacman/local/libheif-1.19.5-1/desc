@@ -1,0 +1,61 @@
+%NAME%
+libheif
+
+%VERSION%
+1.19.5-1
+
+%BASE%
+libheif
+
+%DESC%
+An HEIF and AVIF file format decoder and encoder
+
+%URL%
+https://github.com/strukturag/libheif
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1732051754
+
+%INSTALLDATE%
+1733716473
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%SIZE%
+1732942
+
+%REASON%
+1
+
+%LICENSE%
+GPL3
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+aom
+gcc-libs
+glibc
+libde265
+libwebp
+x265
+
+%OPTDEPENDS%
+libjpeg-turbo: for heif-convert and heif-enc
+libpng: for heif-convert and heif-enc
+dav1d: dav1d encoder
+ffmpeg: hardware decode
+rav1e: rav1e encoder
+svt-av1: svt-av1 encoder
+
+%PROVIDES%
+libheif.so=1-64
+
+%XDATA%
+pkgtype=pkg
+

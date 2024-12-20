@@ -1,0 +1,56 @@
+%NAME%
+ki18n
+
+%VERSION%
+6.8.0-1
+
+%BASE%
+ki18n
+
+%DESC%
+Advanced internationalization framework
+
+%URL%
+https://community.kde.org/Frameworks
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1731078359
+
+%INSTALLDATE%
+1733716474
+
+%PACKAGER%
+Tomaz Canabrava <tcanabrava@archlinux.org>
+
+%SIZE%
+18842448
+
+%REASON%
+1
+
+%GROUPS%
+kf6
+
+%LICENSE%
+LGPL-2.0-only
+LGPL-3.0-only
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+gcc-libs
+glibc
+iso-codes
+qt6-base
+
+%OPTDEPENDS%
+python: to compile .ts files
+qt6-declarative: ktranscript plugin and QML bindings
+
+%XDATA%
+pkgtype=pkg
+

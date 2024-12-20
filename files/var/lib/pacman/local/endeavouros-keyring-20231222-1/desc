@@ -1,0 +1,36 @@
+%NAME%
+endeavouros-keyring
+
+%VERSION%
+20231222-1
+
+%BASE%
+endeavouros-keyring
+
+%DESC%
+EndeavourOS keyring
+
+%URL%
+https://endeavouros.com/
+
+%ARCH%
+any
+
+%BUILDDATE%
+1703246107
+
+%INSTALLDATE%
+1733716340
+
+%PACKAGER%
+manuel <manuel@endeavouros.com>
+
+%SIZE%
+13762
+
+%LICENSE%
+GPL
+
+%VALIDATION%
+pgp
+

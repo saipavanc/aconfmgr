@@ -1,0 +1,60 @@
+%NAME%
+libjxl
+
+%VERSION%
+0.11.1-1
+
+%BASE%
+libjxl
+
+%DESC%
+JPEG XL image format reference implementation
+
+%URL%
+https://jpeg.org/jpegxl/
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1732674260
+
+%INSTALLDATE%
+1733716460
+
+%PACKAGER%
+Daniel Bermond <dbermond@archlinux.org>
+
+%SIZE%
+8754140
+
+%REASON%
+1
+
+%LICENSE%
+BSD-3-Clause
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+brotli
+giflib
+gperftools
+highway
+libjpeg-turbo
+libpng
+
+%OPTDEPENDS%
+gdk-pixbuf2: for gdk-pixbuf loader
+gimp: for gimp plugin
+java-runtime: for JNI bindings
+
+%PROVIDES%
+libjxl.so=0.11-64
+libjxl_cms.so=0.11-64
+libjxl_threads.so=0.11-64
+
+%XDATA%
+pkgtype=split
+

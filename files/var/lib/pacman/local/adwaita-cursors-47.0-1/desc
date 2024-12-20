@@ -1,0 +1,42 @@
+%NAME%
+adwaita-cursors
+
+%VERSION%
+47.0-1
+
+%BASE%
+adwaita-icon-theme
+
+%DESC%
+GNOME standard cursors
+
+%URL%
+https://gitlab.gnome.org/GNOME/adwaita-icon-theme
+
+%ARCH%
+any
+
+%BUILDDATE%
+1726523141
+
+%INSTALLDATE%
+1733716458
+
+%PACKAGER%
+Jan Alexander Steffens (heftig) <heftig@archlinux.org>
+
+%SIZE%
+10504352
+
+%REASON%
+1
+
+%LICENSE%
+CC-BY-SA-3.0 OR LGPL-3.0-only
+
+%VALIDATION%
+pgp
+
+%XDATA%
+pkgtype=split
+

@@ -1,0 +1,57 @@
+%NAME%
+qca-qt6
+
+%VERSION%
+2.3.9-3
+
+%BASE%
+qca
+
+%DESC%
+Qt Cryptographic Architecture
+
+%URL%
+https://userbase.kde.org/QCA
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1729578119
+
+%INSTALLDATE%
+1733716475
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%SIZE%
+3507797
+
+%REASON%
+1
+
+%LICENSE%
+LGPL-2.1-or-later
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+ca-certificates
+gcc-libs
+glibc
+nss
+qt6-5compat
+qt6-base
+
+%OPTDEPENDS%
+botan: botan plugin
+libgcrypt: gcrypt plugin
+libsasl: SASL plugin
+openssl: SSL plugin
+pkcs11-helper: PKCS-11 plugin
+
+%XDATA%
+pkgtype=split
+

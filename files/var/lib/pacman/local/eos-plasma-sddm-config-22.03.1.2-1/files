@@ -1,0 +1,11 @@
+%FILES%
+etc/
+etc/sddm.conf.d/
+etc/sddm.conf.d/kde_settings.conf
+usr/
+usr/share/
+usr/share/sddm/
+usr/share/sddm/themes/
+usr/share/sddm/themes/breeze/
+usr/share/sddm/themes/breeze/theme.conf.user
+

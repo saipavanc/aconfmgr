@@ -1,0 +1,55 @@
+%NAME%
+firewalld
+
+%VERSION%
+2.3.0-1
+
+%BASE%
+firewalld
+
+%DESC%
+Firewall daemon with D-Bus interface
+
+%URL%
+https://firewalld.org
+
+%ARCH%
+any
+
+%BUILDDATE%
+1730881862
+
+%INSTALLDATE%
+1733716470
+
+%PACKAGER%
+Robin Candau <antiz@archlinux.org>
+
+%SIZE%
+24016128
+
+%LICENSE%
+GPL-2.0-or-later
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+python-dbus
+glib2
+hicolor-icon-theme
+nftables
+python-capng
+python-gobject
+
+%OPTDEPENDS%
+bash-completion: bash completion
+gtk3: firewall-config
+libnotify: firewall-applet
+networkmanager: NetworkManager support
+polkit: privileged actions
+python-pyqt6: firewall-applet
+
+%XDATA%
+pkgtype=pkg
+

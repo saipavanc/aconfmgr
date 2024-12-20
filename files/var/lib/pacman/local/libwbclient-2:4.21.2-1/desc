@@ -1,0 +1,50 @@
+%NAME%
+libwbclient
+
+%VERSION%
+2:4.21.2-1
+
+%BASE%
+samba
+
+%DESC%
+winbind client library
+
+%URL%
+https://www.samba.org
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1732567625
+
+%INSTALLDATE%
+1733716475
+
+%PACKAGER%
+Tobias Powalowski <tpowa@archlinux.org>
+
+%SIZE%
+130087
+
+%REASON%
+1
+
+%LICENSE%
+GPL-3.0-or-later
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+libbsd
+
+%OPTDEPENDS%
+python-dnspython: samba_dnsupdate and samba_upgradedns in AD setup
+python-markdown: for samba-tool domain schemeupgrade
+glusterfs: for vfs_glusterfs support
+
+%XDATA%
+pkgtype=split
+

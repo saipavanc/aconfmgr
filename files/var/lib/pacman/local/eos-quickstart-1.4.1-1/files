@@ -1,0 +1,13 @@
+%FILES%
+etc/
+etc/eos-quickstart.conf
+usr/
+usr/bin/
+usr/bin/eos-quickstart
+usr/share/
+usr/share/applications/
+usr/share/applications/eos-quickstart.desktop
+
+%BACKUP%
+etc/eos-quickstart.conf	db341c951c5bf56d56d5de79ce2d216a
+

@@ -1,0 +1,59 @@
+%NAME%
+kuserfeedback
+
+%VERSION%
+6.8.0-1
+
+%BASE%
+kuserfeedback
+
+%DESC%
+Framework for collecting user feedback for applications via telemetry and surveys
+
+%URL%
+https://community.kde.org/Frameworks
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1731090386
+
+%INSTALLDATE%
+1733716476
+
+%PACKAGER%
+Tomaz Canabrava <tcanabrava@archlinux.org>
+
+%SIZE%
+2744704
+
+%REASON%
+1
+
+%LICENSE%
+LGPL-2.0-only
+LGPL-3.0-only
+
+%VALIDATION%
+pgp
+
+%REPLACES%
+kuserfeedback5
+
+%DEPENDS%
+gcc-libs
+glibc
+qt6-base
+
+%OPTDEPENDS%
+qt6-charts: Feedback console
+qt6-declarative: QML bindings
+qt6-svg: Feedback console
+
+%CONFLICTS%
+kuserfeedback5
+
+%XDATA%
+pkgtype=pkg
+

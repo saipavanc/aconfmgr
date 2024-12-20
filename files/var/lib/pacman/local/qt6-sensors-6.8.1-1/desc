@@ -1,0 +1,57 @@
+%NAME%
+qt6-sensors
+
+%VERSION%
+6.8.1-1
+
+%BASE%
+qt6-sensors
+
+%DESC%
+Provides access to sensor hardware and motion gesture recognition
+
+%URL%
+https://www.qt.io
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1733145324
+
+%INSTALLDATE%
+1733716479
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%SIZE%
+1148409
+
+%REASON%
+1
+
+%GROUPS%
+qt6
+
+%LICENSE%
+GPL-3.0-only
+LGPL-3.0-only
+LicenseRef-Qt-Commercial
+Qt-GPL-exception-1.0
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+gcc-libs
+glibc
+qt6-base
+
+%OPTDEPENDS%
+qt6-declarative: QML bindings
+iio-sensor-proxy: iio-sensor-proxy backend
+
+%XDATA%
+pkgtype=pkg
+

@@ -1,0 +1,51 @@
+%NAME%
+networkmanager-openvpn
+
+%VERSION%
+1.12.0-1
+
+%BASE%
+networkmanager-openvpn
+
+%DESC%
+NetworkManager VPN plugin for OpenVPN
+
+%URL%
+https://networkmanager.dev/docs/vpn/
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1719002185
+
+%INSTALLDATE%
+1733716459
+
+%PACKAGER%
+Jan Alexander Steffens (heftig) <heftig@archlinux.org>
+
+%SIZE%
+1626260
+
+%LICENSE%
+GPL-2.0-or-later
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+gcc-libs
+glib2
+glibc
+libnm
+libsecret
+openvpn
+
+%OPTDEPENDS%
+libnma-gtk4: GUI support (GTK 4)
+libnma: GUI support (GTK 3)
+
+%XDATA%
+pkgtype=pkg
+

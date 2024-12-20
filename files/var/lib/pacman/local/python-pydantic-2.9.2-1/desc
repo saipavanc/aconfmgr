@@ -1,0 +1,54 @@
+%NAME%
+python-pydantic
+
+%VERSION%
+2.9.2-1
+
+%BASE%
+python-pydantic
+
+%DESC%
+Data parsing and validation using Python type hints
+
+%URL%
+https://github.com/pydantic/pydantic
+
+%ARCH%
+any
+
+%BUILDDATE%
+1727006602
+
+%INSTALLDATE%
+1733716470
+
+%PACKAGER%
+David Runge <dvzrv@archlinux.org>
+
+%SIZE%
+5177080
+
+%REASON%
+1
+
+%LICENSE%
+MIT
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+python
+python-annotated-types
+python-pydantic-core
+python-typing_extensions
+
+%OPTDEPENDS%
+mypy: for type validation with mypy
+python-dotenv: for .env file support
+python-email-validator: for email validation
+python-hypothesis: for hypothesis plugin when using legacy v1
+
+%XDATA%
+pkgtype=pkg
+

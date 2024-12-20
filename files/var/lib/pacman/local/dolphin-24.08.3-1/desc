@@ -1,0 +1,86 @@
+%NAME%
+dolphin
+
+%VERSION%
+24.08.3-1
+
+%BASE%
+dolphin
+
+%DESC%
+KDE File Manager
+
+%URL%
+https://apps.kde.org/dolphin/
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1730813764
+
+%INSTALLDATE%
+1733716476
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%SIZE%
+14574747
+
+%GROUPS%
+kde-applications
+kde-system
+
+%LICENSE%
+LGPL-2.0-or-later
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+baloo
+baloo-widgets
+gcc-libs
+glibc
+kbookmarks
+kcmutils
+kcodecs
+kcolorscheme
+kcompletion
+kconfig
+kconfigwidgets
+kcoreaddons
+kcrash
+kdbusaddons
+kfilemetadata
+ki18n
+kiconthemes
+kio
+kio-extras
+kjobwidgets
+knewstuff
+knotifications
+kparts
+kservice
+ktextwidgets
+kuserfeedback
+kwidgetsaddons
+kwindowsystem
+kxmlgui
+phonon-qt6
+qt6-base
+solid
+
+%OPTDEPENDS%
+ffmpegthumbs: video thumbnails
+kde-cli-tools: for editing file type options
+kdegraphics-thumbnailers: PDF and PS thumbnails
+kdenetwork-filesharing: samba usershare properties menu
+kio-admin: for managing files as administrator
+konsole: terminal panel
+purpose: share context menu
+
+%XDATA%
+pkgtype=pkg
+

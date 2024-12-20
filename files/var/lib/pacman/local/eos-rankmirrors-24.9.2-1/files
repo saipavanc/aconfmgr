@@ -1,0 +1,19 @@
+%FILES%
+etc/
+etc/eos-rankmirrors.conf
+etc/eos-rankmirrors.disabled
+usr/
+usr/bin/
+usr/bin/eos-rankmirrors
+usr/bin/eos-rankmirrors-from-hook
+usr/share/
+usr/share/bash-completion/
+usr/share/bash-completion/completions/
+usr/share/bash-completion/completions/eos-rankmirrors
+usr/share/libalpm/
+usr/share/libalpm/hooks/
+usr/share/libalpm/hooks/eos-rankmirrors.hook
+
+%BACKUP%
+etc/eos-rankmirrors.conf	1efb5c8f75691c0e13e7170c41c3a064
+

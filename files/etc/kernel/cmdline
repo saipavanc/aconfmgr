@@ -1,0 +1,1 @@
+nvme_load=YES nowatchdog rw rootflags=subvol=/@ root=UUID=72ba1dd6-1337-4593-a368-ae0ecd35fcfa rw rootflags=subvol=/@ root=UUID=72ba1dd6-1337-4593-a368-ae0ecd35fcfa

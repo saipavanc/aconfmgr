@@ -1,0 +1,51 @@
+%NAME%
+reflector-simple
+
+%VERSION%
+2024.8.1-1
+
+%BASE%
+reflector-simple
+
+%DESC%
+Simple GUI wrapper for 'reflector'.
+
+%URL%
+https://github.com/endeavouros-team/PKGBUILDS/tree/master/reflector-simple
+
+%ARCH%
+any
+
+%BUILDDATE%
+1724252473
+
+%INSTALLDATE%
+1733716468
+
+%PACKAGER%
+manuel <manuel@endeavouros.com>
+
+%SIZE%
+36904
+
+%LICENSE%
+GPL
+
+%VALIDATION%
+sha256
+pgp
+
+%DEPENDS%
+reflector
+eos-bash-shared
+yad
+
+%OPTDEPENDS%
+reflector-bash-completion: useful for plain reflector usage
+whois: optional alternative for finding country code
+geoip: optional alternative for finding country code
+bind: optional alternative for finding country code
+
+%XDATA%
+pkgtype=pkg
+

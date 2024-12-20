@@ -1,0 +1,11 @@
+%FILES%
+usr/
+usr/bin/
+usr/bin/eos-hooks-runner
+usr/share/
+usr/share/libalpm/
+usr/share/libalpm/hooks/
+usr/share/libalpm/hooks/eos-hooks.hook
+usr/share/libalpm/hooks/eos-lsb-release.hook
+usr/share/libalpm/hooks/eos-os-release.hook
+

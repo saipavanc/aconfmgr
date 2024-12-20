@@ -1,0 +1,52 @@
+%NAME%
+groff
+
+%VERSION%
+1.23.0-7
+
+%BASE%
+groff
+
+%DESC%
+GNU troff text-formatting system
+
+%URL%
+https://www.gnu.org/software/groff/groff.html
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1724833167
+
+%INSTALLDATE%
+1733716340
+
+%PACKAGER%
+Tobias Powalowski <tpowa@archlinux.org>
+
+%SIZE%
+9274653
+
+%REASON%
+1
+
+%LICENSE%
+GPL-3.0-or-later
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+perl
+gcc-libs
+
+%OPTDEPENDS%
+netpbm: for use together with man -H command interaction in browsers
+psutils: for use together with man -H command interaction in browsers
+libxaw: for gxditview
+perl-file-homedir: for use with glilypond
+
+%XDATA%
+pkgtype=pkg
+

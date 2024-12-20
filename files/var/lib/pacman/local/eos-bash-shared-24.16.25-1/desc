@@ -1,0 +1,63 @@
+%NAME%
+eos-bash-shared
+
+%VERSION%
+24.16.25-1
+
+%BASE%
+eos-bash-shared
+
+%DESC%
+Bash code shared by certain EndeavourOS apps.
+
+%URL%
+https://github.com/endeavouros-team/eos-bash-shared
+
+%ARCH%
+any
+
+%BUILDDATE%
+1728651839
+
+%INSTALLDATE%
+1733716465
+
+%PACKAGER%
+manuel <manuel@endeavouros.com>
+
+%SIZE%
+158367
+
+%REASON%
+1
+
+%LICENSE%
+GPL
+
+%VALIDATION%
+sha256
+pgp
+
+%DEPENDS%
+bash
+eos-translations
+expac
+dbus-python
+endeavouros-theming
+xdg-utils
+
+%OPTDEPENDS%
+xorg-xrandr: for eos-wallpaper-set (on Xfce) and ChangeDisplayResolution
+gnu-netcat: one of the pastebins (termbin) for eos-sendlog
+neofetch: for additional DE detection
+kde-gtk-config: to remove gtk related yad warnings
+libnotify: for eos-reboot-required2
+webkit2gtk-4.1: for eos-pacdiff to show message windows implemented with yad
+yay: alternative for AUR updates in eos-update
+paru: alternative for AUR updates in eos-update
+arch-audit: for showing only packages that have already been fixed
+yad: needed for some EOS apps
+
+%XDATA%
+pkgtype=pkg
+

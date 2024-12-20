@@ -1,0 +1,47 @@
+%NAME%
+libdecor
+
+%VERSION%
+0.2.2-1
+
+%BASE%
+libdecor
+
+%DESC%
+Client-side decorations library for Wayland clients
+
+%URL%
+https://gitlab.freedesktop.org/libdecor/libdecor
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1705494520
+
+%INSTALLDATE%
+1733716459
+
+%PACKAGER%
+Sven-Hendrik Haase <svenstaro@archlinux.org>
+
+%SIZE%
+177725
+
+%REASON%
+1
+
+%LICENSE%
+MIT
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+wayland
+pango
+dbus
+
+%OPTDEPENDS%
+gtk3: gtk3 support
+

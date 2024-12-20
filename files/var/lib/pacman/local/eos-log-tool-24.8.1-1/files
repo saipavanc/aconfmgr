@@ -1,0 +1,13 @@
+%FILES%
+etc/
+etc/eos-log-tool.conf
+usr/
+usr/bin/
+usr/bin/eos-log-tool
+usr/share/
+usr/share/applications/
+usr/share/applications/eos-log-tool.desktop
+
+%BACKUP%
+etc/eos-log-tool.conf	dd1f151b66542a37aa5af5a012495948
+

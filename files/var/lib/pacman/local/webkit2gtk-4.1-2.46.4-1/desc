@@ -1,0 +1,125 @@
+%NAME%
+webkit2gtk-4.1
+
+%VERSION%
+2.46.4-1
+
+%BASE%
+webkit2gtk-4.1
+
+%DESC%
+Web content engine for GTK
+
+%URL%
+https://webkitgtk.org
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1732719765
+
+%INSTALLDATE%
+1733716465
+
+%PACKAGER%
+Jan Alexander Steffens (heftig) <heftig@archlinux.org>
+
+%SIZE%
+120609460
+
+%REASON%
+1
+
+%LICENSE%
+AFL-2.0 OR GPL-2.0-or-later
+Apache-2.0
+Apache-2.0 WITH LLVM-exception
+BSD-2-Clause
+BSD-2-Clause-Views
+BSD-3-Clause
+BSD-Source-Code
+BSL-1.0
+bzip2-1.0.6
+GPL-2.0-only
+GPL-3.0-only WITH Autoconf-exception-3.0
+GPL-3.0-or-later WITH Bison-exception-2.2
+ICU
+ISC
+LGPL-2.1-only
+LGPL-2.1-or-later
+MIT
+MPL-1.1
+MPL-2.0
+NCSA
+NCSA OR MIT
+OFL-1.1
+SunPro
+Unicode-TOU
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+at-spi2-core
+atk
+bubblewrap
+cairo
+enchant
+fontconfig
+freetype2
+gcc-libs
+gdk-pixbuf2
+glib2
+glibc
+gst-plugins-bad-libs
+gst-plugins-base-libs
+gstreamer
+gtk3
+harfbuzz
+harfbuzz-icu
+hyphen
+icu
+lcms2
+libavif
+libdrm
+libegl
+libepoxy
+libgcrypt
+libgl
+libgles
+libjpeg-turbo
+libjxl
+libmanette
+libpng
+libseccomp
+libsecret
+libsoup3
+libsystemd
+libtasn1
+libwebp
+libx11
+libxml2
+libxslt
+mesa
+openjpeg2
+pango
+sqlite
+wayland
+woff2
+xdg-dbus-proxy
+zlib
+
+%OPTDEPENDS%
+geoclue: Geolocation support
+gst-libav: nonfree media decoding
+gst-plugins-bad: media decoding
+gst-plugins-good: media decoding
+
+%PROVIDES%
+libjavascriptcoregtk-4.1.so=0-64
+libwebkit2gtk-4.1.so=0-64
+
+%XDATA%
+pkgtype=split
+

@@ -1,0 +1,81 @@
+%NAME%
+kio
+
+%VERSION%
+6.8.0-2
+
+%BASE%
+kio
+
+%DESC%
+Resource and network access abstraction
+
+%URL%
+https://community.kde.org/Frameworks
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1731152868
+
+%INSTALLDATE%
+1733716475
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%SIZE%
+22232126
+
+%REASON%
+1
+
+%GROUPS%
+kf6
+
+%LICENSE%
+LGPL-2.0-only
+LGPL-3.0-only
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+acl
+gcc-libs
+glibc
+karchive
+kauth
+kbookmarks
+kcolorscheme
+kcompletion
+kconfig
+kcoreaddons
+kcrash
+kdbusaddons
+kguiaddons
+ki18n
+kiconthemes
+kitemviews
+kjobwidgets
+kservice
+kwallet
+kwidgetsaddons
+kwindowsystem
+libxml2
+libxslt
+qt6-base
+solid
+util-linux-libs
+
+%OPTDEPENDS%
+kded: proxy management and cookie storage
+kdoctools: for the help kioslave
+kio-extras: extra protocols support (sftp, fish and more)
+kio-fuse: to mount remote filesystems via FUSE
+switcheroo-control: hybrid GPU support
+
+%XDATA%
+pkgtype=pkg
+

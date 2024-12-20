@@ -1,0 +1,50 @@
+%NAME%
+libnice
+
+%VERSION%
+0.1.22-1
+
+%BASE%
+libnice
+
+%DESC%
+An implementation of the IETF's draft ICE (for p2p UDP data streams)
+
+%URL%
+https://nice.freedesktop.org
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1709595033
+
+%INSTALLDATE%
+1733716461
+
+%PACKAGER%
+Jan Alexander Steffens (heftig) <heftig@archlinux.org>
+
+%SIZE%
+1930933
+
+%REASON%
+1
+
+%LICENSE%
+MPL-1.1 OR LGPL-2.1-only
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+glib2
+gnutls
+gupnp-igd
+
+%OPTDEPENDS%
+gstreamer: "nice" GStreamer plugin
+
+%PROVIDES%
+libnice.so=10-64
+

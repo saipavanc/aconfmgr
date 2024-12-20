@@ -1,0 +1,53 @@
+%NAME%
+xfsprogs
+
+%VERSION%
+6.12.0-1
+
+%BASE%
+xfsprogs
+
+%DESC%
+XFS filesystem utilities
+
+%URL%
+https://xfs.wiki.kernel.org
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1733418780
+
+%INSTALLDATE%
+1733716343
+
+%PACKAGER%
+Tobias Powalowski <tpowa@archlinux.org>
+
+%SIZE%
+4149125
+
+%LICENSE%
+GPL-2.0-only
+LGPL-2.1-only
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+device-mapper
+libedit
+libinih
+liburcu
+sh
+util-linux-libs
+
+%OPTDEPENDS%
+icu: for xfs_scrub
+python: for xfs_scrub_all script
+smtp-forwarder: for xfs_scrub_fail script
+
+%XDATA%
+pkgtype=pkg
+

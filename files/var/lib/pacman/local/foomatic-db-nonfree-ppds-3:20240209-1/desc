@@ -1,0 +1,36 @@
+%NAME%
+foomatic-db-nonfree-ppds
+
+%VERSION%
+3:20240209-1
+
+%BASE%
+foomatic-db
+
+%DESC%
+Foomatic - non-free PPDs from printer manufacturers
+
+%URL%
+http://www.linuxprinting.org/foomatic.html
+
+%ARCH%
+any
+
+%BUILDDATE%
+1708451191
+
+%INSTALLDATE%
+1733716472
+
+%PACKAGER%
+Andreas Radke <andyrtr@archlinux.org>
+
+%SIZE%
+8731994
+
+%LICENSE%
+LicenseRef-foomatic-db-nonfree-ppds
+
+%VALIDATION%
+pgp
+

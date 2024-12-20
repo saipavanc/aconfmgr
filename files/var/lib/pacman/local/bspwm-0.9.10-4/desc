@@ -1,0 +1,48 @@
+%NAME%
+bspwm
+
+%VERSION%
+0.9.10-4
+
+%BASE%
+bspwm
+
+%DESC%
+Tiling window manager based on binary space partitioning
+
+%URL%
+https://github.com/baskerville/bspwm
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1722203336
+
+%INSTALLDATE%
+1733716796
+
+%PACKAGER%
+Alexander F. Rødseth <xyproto@archlinux.org>
+
+%SIZE%
+257284
+
+%LICENSE%
+BSD-2-Clause
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+xcb-util
+xcb-util-keysyms
+xcb-util-wm
+
+%OPTDEPENDS%
+sxhkd: to define keyboard and pointer bindings
+xdo: for the example panel
+
+%XDATA%
+pkgtype=pkg
+

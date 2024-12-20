@@ -1,0 +1,8 @@
+%FILES%
+etc/
+etc/pacman.d/
+etc/pacman.d/endeavouros-mirrorlist
+
+%BACKUP%
+etc/pacman.d/endeavouros-mirrorlist	914c696a9b9d0703ca3e5bf160c6d3a5
+

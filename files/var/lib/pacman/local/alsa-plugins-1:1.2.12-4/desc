@@ -1,0 +1,54 @@
+%NAME%
+alsa-plugins
+
+%VERSION%
+1:1.2.12-4
+
+%BASE%
+alsa-plugins
+
+%DESC%
+Additional ALSA plugins
+
+%URL%
+https://www.alsa-project.org
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1728569098
+
+%INSTALLDATE%
+1733716464
+
+%PACKAGER%
+David Runge <dvzrv@archlinux.org>
+
+%SIZE%
+398046
+
+%LICENSE%
+GPL-2.0-or-later
+LGPL-2.1-or-later
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+alsa-lib
+libasound.so=2-64
+glibc
+
+%OPTDEPENDS%
+dbus: for maemo plugin
+ffmpeg: for pcm_a52 plugin
+jack: for pcm_jack plugin
+libavtp: for pcm_aaf plugin
+libsamplerate: for rate_samplerate plugin
+libpulse: for conf_pulse, ctl_pulse and pcm_pulse plugins
+speexdsp: for pcm_speex and rate_speexrate plugins
+
+%XDATA%
+pkgtype=split
+

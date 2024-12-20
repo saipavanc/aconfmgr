@@ -1,0 +1,52 @@
+%NAME%
+hwdetect
+
+%VERSION%
+2024.07.29.0933-1
+
+%BASE%
+hwdetect
+
+%DESC%
+Hardware detection script with loading modules and mkinitcpio.conf
+
+%URL%
+https://archlinux.org/packages/extra/any/hwdetect/
+
+%ARCH%
+any
+
+%BUILDDATE%
+1722238450
+
+%INSTALLDATE%
+1733716464
+
+%PACKAGER%
+Tobias Powalowski <tpowa@archlinux.org>
+
+%SIZE%
+15425
+
+%LICENSE%
+GPL-3.0-or-later
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+bash
+coreutils
+fd
+gzip
+ripgrep
+sd
+
+%OPTDEPENDS%
+cryptsetup: for encrypt mkinitcpio config support
+lvm2: for lvm2 mkinitcpio config support
+mdadm: for raid mkinitcpio config support
+
+%XDATA%
+pkgtype=pkg
+

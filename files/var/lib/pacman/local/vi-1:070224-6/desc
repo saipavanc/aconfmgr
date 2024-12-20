@@ -1,0 +1,42 @@
+%NAME%
+vi
+
+%VERSION%
+1:070224-6
+
+%BASE%
+vi
+
+%DESC%
+The original ex/vi text editor
+
+%URL%
+https://ex-vi.sourceforge.net/
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1665018797
+
+%INSTALLDATE%
+1733716470
+
+%PACKAGER%
+Evangelos Foutras <foutrelis@archlinux.org>
+
+%SIZE%
+327133
+
+%LICENSE%
+custom:ex
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+ncurses
+
+%OPTDEPENDS%
+s-nail: used by the preserve command for notification
+

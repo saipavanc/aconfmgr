@@ -1,0 +1,47 @@
+%NAME%
+downgrade
+
+%VERSION%
+11.4.2-1
+
+%BASE%
+downgrade
+
+%DESC%
+Bash script for downgrading one or more packages to a version in your cache or the A.L.A.
+
+%URL%
+https://github.com/archlinux-downgrade/downgrade
+
+%ARCH%
+any
+
+%BUILDDATE%
+1729623872
+
+%INSTALLDATE%
+1733716459
+
+%PACKAGER%
+manuel <manuel@endeavouros.com>
+
+%SIZE%
+80859
+
+%LICENSE%
+GPL
+
+%VALIDATION%
+sha256
+pgp
+
+%DEPENDS%
+pacman-contrib
+fzf
+
+%OPTDEPENDS%
+sudo: for installation via sudo
+
+%XDATA%
+pkgtype=pkg
+

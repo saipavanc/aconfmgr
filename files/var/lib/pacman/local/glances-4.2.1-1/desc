@@ -1,0 +1,59 @@
+%NAME%
+glances
+
+%VERSION%
+4.2.1-1
+
+%BASE%
+glances
+
+%DESC%
+CLI curses-based monitoring tool
+
+%URL%
+https://nicolargo.github.io/glances/
+
+%ARCH%
+any
+
+%BUILDDATE%
+1730480983
+
+%INSTALLDATE%
+1733716470
+
+%PACKAGER%
+Robin Candau <antiz@archlinux.org>
+
+%SIZE%
+4410823
+
+%LICENSE%
+LGPL-3.0-or-later
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+python
+python-psutil
+python-defusedxml
+python-orjson
+python-pydantic
+python-packaging
+
+%OPTDEPENDS%
+hddtemp: HDD temperature monitoring support
+uvicorn: for WebUI / RestFull API
+python-jinja: for WebUI / RestFull API
+python-fastapi: for WebUI / RestFull API
+python-docker: for the Docker monitoring support
+python-matplotlib: for graphical/chart support
+python-netifaces: for the IP plugin
+python-zeroconf: for the autodiscover mode
+python-pystache: templating engine
+python-prometheus_client: for the Prometheus export module
+
+%XDATA%
+pkgtype=pkg
+

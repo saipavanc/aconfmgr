@@ -1,0 +1,46 @@
+%NAME%
+poppler-data
+
+%VERSION%
+0.4.12-2
+
+%BASE%
+poppler-data
+
+%DESC%
+Encoding data for the poppler PDF rendering library
+
+%URL%
+https://poppler.freedesktop.org/
+
+%ARCH%
+any
+
+%BUILDDATE%
+1720195965
+
+%INSTALLDATE%
+1733716470
+
+%PACKAGER%
+Andreas Radke <andyrtr@archlinux.org>
+
+%SIZE%
+12941097
+
+%REASON%
+1
+
+%LICENSE%
+GPL-2.0-only OR GPL-3.0-only
+BSD-3-Clause
+
+%VALIDATION%
+pgp
+
+%CONFLICTS%
+poppler<0.10.5
+
+%XDATA%
+pkgtype=pkg
+

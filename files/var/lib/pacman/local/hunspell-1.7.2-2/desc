@@ -1,0 +1,52 @@
+%NAME%
+hunspell
+
+%VERSION%
+1.7.2-2
+
+%BASE%
+hunspell
+
+%DESC%
+Spell checker and morphological analyzer library and program
+
+%URL%
+https://github.com/hunspell/hunspell
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1719949125
+
+%INSTALLDATE%
+1733716480
+
+%PACKAGER%
+Andreas Radke <andyrtr@archlinux.org>
+
+%SIZE%
+1465427
+
+%REASON%
+1
+
+%LICENSE%
+LGPL-2.1-or-later OR GPL-2.0-or-later OR MPL-1.1
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+gcc-libs
+readline
+ncurses
+glibc
+sh
+
+%OPTDEPENDS%
+perl: for ispellaff2myspell
+
+%XDATA%
+pkgtype=pkg
+

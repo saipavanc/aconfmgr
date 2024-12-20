@@ -1,0 +1,9 @@
+logrotate state -- version 2
+"/var/log/firewalld" 2024-12-9-0:0:0
+"/var/log/cups/error_log" 2024-12-15-0:26:55
+"/var/log/samba/log.smbd" 2024-12-9-0:0:0
+"/var/log/cups/access_log" 2024-12-15-0:26:55
+"/var/log/wtmp" 2024-12-9-0:0:0
+"/var/log/samba/*.log" 2024-12-9-0:0:0
+"/var/log/btmp" 2024-12-9-0:0:0
+"/var/log/samba/log.nmbd" 2024-12-9-0:0:0

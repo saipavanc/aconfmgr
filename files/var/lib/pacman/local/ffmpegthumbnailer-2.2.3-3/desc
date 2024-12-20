@@ -1,0 +1,47 @@
+%NAME%
+ffmpegthumbnailer
+
+%VERSION%
+2.2.3-3
+
+%BASE%
+ffmpegthumbnailer
+
+%DESC%
+Lightweight video thumbnailer that can be used by file managers
+
+%URL%
+https://github.com/dirkvdb/ffmpegthumbnailer
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1728726205
+
+%INSTALLDATE%
+1733716461
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%SIZE%
+283573
+
+%LICENSE%
+GPL-2.0-or-later
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+ffmpeg
+libjpeg-turbo
+libpng
+
+%OPTDEPENDS%
+gvfs: support for gio uris
+
+%XDATA%
+pkgtype=pkg
+

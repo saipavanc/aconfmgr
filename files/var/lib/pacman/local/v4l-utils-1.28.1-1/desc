@@ -1,0 +1,63 @@
+%NAME%
+v4l-utils
+
+%VERSION%
+1.28.1-1
+
+%BASE%
+v4l-utils
+
+%DESC%
+Userspace tools and conversion library for Video 4 Linux
+
+%URL%
+https://linuxtv.org/
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1723211036
+
+%INSTALLDATE%
+1733716461
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%SIZE%
+11610790
+
+%REASON%
+1
+
+%LICENSE%
+LGPL
+
+%VALIDATION%
+pgp
+
+%REPLACES%
+libv4l
+
+%DEPENDS%
+hicolor-icon-theme
+gcc-libs
+libjpeg-turbo
+systemd-libs
+json-c
+
+%OPTDEPENDS%
+qt5-base: for qv4l2 and qvidcap
+alsa-lib: for qv4l2
+libbpf: for ir-keytable
+
+%CONFLICTS%
+libv4l
+
+%PROVIDES%
+libv4l=1.28.1
+
+%XDATA%
+pkgtype=pkg
+

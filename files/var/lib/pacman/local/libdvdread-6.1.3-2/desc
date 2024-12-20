@@ -1,0 +1,45 @@
+%NAME%
+libdvdread
+
+%VERSION%
+6.1.3-2
+
+%BASE%
+libdvdread
+
+%DESC%
+Library for reading DVD video disks
+
+%URL%
+https://www.videolan.org/developers/libdvdnav.html
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1685602468
+
+%INSTALLDATE%
+1733716460
+
+%PACKAGER%
+Balló György <bgyorgy@archlinux.org>
+
+%SIZE%
+321261
+
+%REASON%
+1
+
+%LICENSE%
+GPL
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+glibc
+
+%OPTDEPENDS%
+libdvdcss: Decoding encrypted DVDs
+

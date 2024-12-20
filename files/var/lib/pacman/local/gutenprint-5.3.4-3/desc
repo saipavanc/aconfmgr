@@ -1,0 +1,53 @@
+%NAME%
+gutenprint
+
+%VERSION%
+5.3.4-3
+
+%BASE%
+gutenprint
+
+%DESC%
+Top quality printer drivers for POSIX systems
+
+%URL%
+http://gimp-print.sourceforge.net/
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1696101929
+
+%INSTALLDATE%
+1733716472
+
+%PACKAGER%
+Andreas Radke <andyrtr@archlinux.org>
+
+%SIZE%
+33512736
+
+%LICENSE%
+GPL
+
+%VALIDATION%
+pgp
+
+%REPLACES%
+gimp-print
+
+%DEPENDS%
+cups
+cups-filters
+glib2
+zlib
+glibc
+readline
+
+%OPTDEPENDS%
+gimp: adds gutenprint plugin to gimp
+libusb: required for drivers that depend on gutenprint52usb backend
+foomatic-db-gutenprint-ppds: prebuilt ppd files
+perl: to run cups-genppdupdate
+

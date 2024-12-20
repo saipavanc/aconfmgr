@@ -1,0 +1,772 @@
+%FILES%
+etc/
+etc/sane.d/
+etc/sane.d/abaton.conf
+etc/sane.d/agfafocus.conf
+etc/sane.d/apple.conf
+etc/sane.d/artec.conf
+etc/sane.d/artec_eplus48u.conf
+etc/sane.d/avision.conf
+etc/sane.d/bh.conf
+etc/sane.d/canon.conf
+etc/sane.d/canon630u.conf
+etc/sane.d/canon_dr.conf
+etc/sane.d/canon_lide70.conf
+etc/sane.d/canon_pp.conf
+etc/sane.d/cardscan.conf
+etc/sane.d/coolscan.conf
+etc/sane.d/coolscan2.conf
+etc/sane.d/coolscan3.conf
+etc/sane.d/dc210.conf
+etc/sane.d/dc240.conf
+etc/sane.d/dc25.conf
+etc/sane.d/dell1600n_net.conf
+etc/sane.d/dll.conf
+etc/sane.d/dll.d/
+etc/sane.d/dmc.conf
+etc/sane.d/epjitsu.conf
+etc/sane.d/epson.conf
+etc/sane.d/epson2.conf
+etc/sane.d/epsonds.conf
+etc/sane.d/escl.conf
+etc/sane.d/fujitsu.conf
+etc/sane.d/genesys.conf
+etc/sane.d/gphoto2.conf
+etc/sane.d/gt68xx.conf
+etc/sane.d/hp.conf
+etc/sane.d/hp3900.conf
+etc/sane.d/hp4200.conf
+etc/sane.d/hp5400.conf
+etc/sane.d/hpsj5s.conf
+etc/sane.d/hs2p.conf
+etc/sane.d/ibm.conf
+etc/sane.d/kodak.conf
+etc/sane.d/kodakaio.conf
+etc/sane.d/kvs1025.conf
+etc/sane.d/leo.conf
+etc/sane.d/lexmark.conf
+etc/sane.d/lexmark_x2600.conf
+etc/sane.d/ma1509.conf
+etc/sane.d/magicolor.conf
+etc/sane.d/matsushita.conf
+etc/sane.d/microtek.conf
+etc/sane.d/microtek2.conf
+etc/sane.d/mustek.conf
+etc/sane.d/mustek_pp.conf
+etc/sane.d/mustek_usb.conf
+etc/sane.d/nec.conf
+etc/sane.d/net.conf
+etc/sane.d/p5.conf
+etc/sane.d/pie.conf
+etc/sane.d/pieusb.conf
+etc/sane.d/pixma.conf
+etc/sane.d/plustek.conf
+etc/sane.d/plustek_pp.conf
+etc/sane.d/qcam.conf
+etc/sane.d/ricoh.conf
+etc/sane.d/rts8891.conf
+etc/sane.d/s9036.conf
+etc/sane.d/saned.conf
+etc/sane.d/sceptre.conf
+etc/sane.d/sharp.conf
+etc/sane.d/sm3840.conf
+etc/sane.d/snapscan.conf
+etc/sane.d/sp15c.conf
+etc/sane.d/st400.conf
+etc/sane.d/stv680.conf
+etc/sane.d/tamarack.conf
+etc/sane.d/teco1.conf
+etc/sane.d/teco2.conf
+etc/sane.d/teco3.conf
+etc/sane.d/test.conf
+etc/sane.d/u12.conf
+etc/sane.d/umax.conf
+etc/sane.d/umax1220u.conf
+etc/sane.d/umax_pp.conf
+etc/sane.d/v4l.conf
+etc/sane.d/xerox_mfp.conf
+usr/
+usr/bin/
+usr/bin/gamma4scanimage
+usr/bin/sane-config
+usr/bin/sane-find-scanner
+usr/bin/saned
+usr/bin/scanimage
+usr/bin/umax_pp
+usr/include/
+usr/include/sane/
+usr/include/sane/sane.h
+usr/include/sane/saneopts.h
+usr/lib/
+usr/lib/libsane.so
+usr/lib/libsane.so.1
+usr/lib/libsane.so.1.3.1
+usr/lib/pkgconfig/
+usr/lib/pkgconfig/sane-backends.pc
+usr/lib/sane/
+usr/lib/sane/libsane-abaton.so
+usr/lib/sane/libsane-abaton.so.1
+usr/lib/sane/libsane-abaton.so.1.3.1
+usr/lib/sane/libsane-agfafocus.so
+usr/lib/sane/libsane-agfafocus.so.1
+usr/lib/sane/libsane-agfafocus.so.1.3.1
+usr/lib/sane/libsane-apple.so
+usr/lib/sane/libsane-apple.so.1
+usr/lib/sane/libsane-apple.so.1.3.1
+usr/lib/sane/libsane-artec.so
+usr/lib/sane/libsane-artec.so.1
+usr/lib/sane/libsane-artec.so.1.3.1
+usr/lib/sane/libsane-artec_eplus48u.so
+usr/lib/sane/libsane-artec_eplus48u.so.1
+usr/lib/sane/libsane-artec_eplus48u.so.1.3.1
+usr/lib/sane/libsane-as6e.so
+usr/lib/sane/libsane-as6e.so.1
+usr/lib/sane/libsane-as6e.so.1.3.1
+usr/lib/sane/libsane-avision.so
+usr/lib/sane/libsane-avision.so.1
+usr/lib/sane/libsane-avision.so.1.3.1
+usr/lib/sane/libsane-bh.so
+usr/lib/sane/libsane-bh.so.1
+usr/lib/sane/libsane-bh.so.1.3.1
+usr/lib/sane/libsane-canon.so
+usr/lib/sane/libsane-canon.so.1
+usr/lib/sane/libsane-canon.so.1.3.1
+usr/lib/sane/libsane-canon630u.so
+usr/lib/sane/libsane-canon630u.so.1
+usr/lib/sane/libsane-canon630u.so.1.3.1
+usr/lib/sane/libsane-canon_dr.so
+usr/lib/sane/libsane-canon_dr.so.1
+usr/lib/sane/libsane-canon_dr.so.1.3.1
+usr/lib/sane/libsane-canon_lide70.so
+usr/lib/sane/libsane-canon_lide70.so.1
+usr/lib/sane/libsane-canon_lide70.so.1.3.1
+usr/lib/sane/libsane-canon_pp.so
+usr/lib/sane/libsane-canon_pp.so.1
+usr/lib/sane/libsane-canon_pp.so.1.3.1
+usr/lib/sane/libsane-cardscan.so
+usr/lib/sane/libsane-cardscan.so.1
+usr/lib/sane/libsane-cardscan.so.1.3.1
+usr/lib/sane/libsane-coolscan.so
+usr/lib/sane/libsane-coolscan.so.1
+usr/lib/sane/libsane-coolscan.so.1.3.1
+usr/lib/sane/libsane-coolscan2.so
+usr/lib/sane/libsane-coolscan2.so.1
+usr/lib/sane/libsane-coolscan2.so.1.3.1
+usr/lib/sane/libsane-coolscan3.so
+usr/lib/sane/libsane-coolscan3.so.1
+usr/lib/sane/libsane-coolscan3.so.1.3.1
+usr/lib/sane/libsane-dc210.so
+usr/lib/sane/libsane-dc210.so.1
+usr/lib/sane/libsane-dc210.so.1.3.1
+usr/lib/sane/libsane-dc240.so
+usr/lib/sane/libsane-dc240.so.1
+usr/lib/sane/libsane-dc240.so.1.3.1
+usr/lib/sane/libsane-dc25.so
+usr/lib/sane/libsane-dc25.so.1
+usr/lib/sane/libsane-dc25.so.1.3.1
+usr/lib/sane/libsane-dell1600n_net.so
+usr/lib/sane/libsane-dell1600n_net.so.1
+usr/lib/sane/libsane-dell1600n_net.so.1.3.1
+usr/lib/sane/libsane-dll.so
+usr/lib/sane/libsane-dll.so.1
+usr/lib/sane/libsane-dll.so.1.3.1
+usr/lib/sane/libsane-dmc.so
+usr/lib/sane/libsane-dmc.so.1
+usr/lib/sane/libsane-dmc.so.1.3.1
+usr/lib/sane/libsane-epjitsu.so
+usr/lib/sane/libsane-epjitsu.so.1
+usr/lib/sane/libsane-epjitsu.so.1.3.1
+usr/lib/sane/libsane-epson.so
+usr/lib/sane/libsane-epson.so.1
+usr/lib/sane/libsane-epson.so.1.3.1
+usr/lib/sane/libsane-epson2.so
+usr/lib/sane/libsane-epson2.so.1
+usr/lib/sane/libsane-epson2.so.1.3.1
+usr/lib/sane/libsane-epsonds.so
+usr/lib/sane/libsane-epsonds.so.1
+usr/lib/sane/libsane-epsonds.so.1.3.1
+usr/lib/sane/libsane-escl.so
+usr/lib/sane/libsane-escl.so.1
+usr/lib/sane/libsane-escl.so.1.3.1
+usr/lib/sane/libsane-fujitsu.so
+usr/lib/sane/libsane-fujitsu.so.1
+usr/lib/sane/libsane-fujitsu.so.1.3.1
+usr/lib/sane/libsane-genesys.so
+usr/lib/sane/libsane-genesys.so.1
+usr/lib/sane/libsane-genesys.so.1.3.1
+usr/lib/sane/libsane-gphoto2.so
+usr/lib/sane/libsane-gphoto2.so.1
+usr/lib/sane/libsane-gphoto2.so.1.3.1
+usr/lib/sane/libsane-gt68xx.so
+usr/lib/sane/libsane-gt68xx.so.1
+usr/lib/sane/libsane-gt68xx.so.1.3.1
+usr/lib/sane/libsane-hp.so
+usr/lib/sane/libsane-hp.so.1
+usr/lib/sane/libsane-hp.so.1.3.1
+usr/lib/sane/libsane-hp3500.so
+usr/lib/sane/libsane-hp3500.so.1
+usr/lib/sane/libsane-hp3500.so.1.3.1
+usr/lib/sane/libsane-hp3900.so
+usr/lib/sane/libsane-hp3900.so.1
+usr/lib/sane/libsane-hp3900.so.1.3.1
+usr/lib/sane/libsane-hp4200.so
+usr/lib/sane/libsane-hp4200.so.1
+usr/lib/sane/libsane-hp4200.so.1.3.1
+usr/lib/sane/libsane-hp5400.so
+usr/lib/sane/libsane-hp5400.so.1
+usr/lib/sane/libsane-hp5400.so.1.3.1
+usr/lib/sane/libsane-hp5590.so
+usr/lib/sane/libsane-hp5590.so.1
+usr/lib/sane/libsane-hp5590.so.1.3.1
+usr/lib/sane/libsane-hpljm1005.so
+usr/lib/sane/libsane-hpljm1005.so.1
+usr/lib/sane/libsane-hpljm1005.so.1.3.1
+usr/lib/sane/libsane-hpsj5s.so
+usr/lib/sane/libsane-hpsj5s.so.1
+usr/lib/sane/libsane-hpsj5s.so.1.3.1
+usr/lib/sane/libsane-hs2p.so
+usr/lib/sane/libsane-hs2p.so.1
+usr/lib/sane/libsane-hs2p.so.1.3.1
+usr/lib/sane/libsane-ibm.so
+usr/lib/sane/libsane-ibm.so.1
+usr/lib/sane/libsane-ibm.so.1.3.1
+usr/lib/sane/libsane-kodak.so
+usr/lib/sane/libsane-kodak.so.1
+usr/lib/sane/libsane-kodak.so.1.3.1
+usr/lib/sane/libsane-kodakaio.so
+usr/lib/sane/libsane-kodakaio.so.1
+usr/lib/sane/libsane-kodakaio.so.1.3.1
+usr/lib/sane/libsane-kvs1025.so
+usr/lib/sane/libsane-kvs1025.so.1
+usr/lib/sane/libsane-kvs1025.so.1.3.1
+usr/lib/sane/libsane-kvs20xx.so
+usr/lib/sane/libsane-kvs20xx.so.1
+usr/lib/sane/libsane-kvs20xx.so.1.3.1
+usr/lib/sane/libsane-kvs40xx.so
+usr/lib/sane/libsane-kvs40xx.so.1
+usr/lib/sane/libsane-kvs40xx.so.1.3.1
+usr/lib/sane/libsane-leo.so
+usr/lib/sane/libsane-leo.so.1
+usr/lib/sane/libsane-leo.so.1.3.1
+usr/lib/sane/libsane-lexmark.so
+usr/lib/sane/libsane-lexmark.so.1
+usr/lib/sane/libsane-lexmark.so.1.3.1
+usr/lib/sane/libsane-lexmark_x2600.so
+usr/lib/sane/libsane-lexmark_x2600.so.1
+usr/lib/sane/libsane-lexmark_x2600.so.1.3.1
+usr/lib/sane/libsane-ma1509.so
+usr/lib/sane/libsane-ma1509.so.1
+usr/lib/sane/libsane-ma1509.so.1.3.1
+usr/lib/sane/libsane-magicolor.so
+usr/lib/sane/libsane-magicolor.so.1
+usr/lib/sane/libsane-magicolor.so.1.3.1
+usr/lib/sane/libsane-matsushita.so
+usr/lib/sane/libsane-matsushita.so.1
+usr/lib/sane/libsane-matsushita.so.1.3.1
+usr/lib/sane/libsane-microtek.so
+usr/lib/sane/libsane-microtek.so.1
+usr/lib/sane/libsane-microtek.so.1.3.1
+usr/lib/sane/libsane-microtek2.so
+usr/lib/sane/libsane-microtek2.so.1
+usr/lib/sane/libsane-microtek2.so.1.3.1
+usr/lib/sane/libsane-mustek.so
+usr/lib/sane/libsane-mustek.so.1
+usr/lib/sane/libsane-mustek.so.1.3.1
+usr/lib/sane/libsane-mustek_pp.so
+usr/lib/sane/libsane-mustek_pp.so.1
+usr/lib/sane/libsane-mustek_pp.so.1.3.1
+usr/lib/sane/libsane-mustek_usb.so
+usr/lib/sane/libsane-mustek_usb.so.1
+usr/lib/sane/libsane-mustek_usb.so.1.3.1
+usr/lib/sane/libsane-mustek_usb2.so
+usr/lib/sane/libsane-mustek_usb2.so.1
+usr/lib/sane/libsane-mustek_usb2.so.1.3.1
+usr/lib/sane/libsane-nec.so
+usr/lib/sane/libsane-nec.so.1
+usr/lib/sane/libsane-nec.so.1.3.1
+usr/lib/sane/libsane-net.so
+usr/lib/sane/libsane-net.so.1
+usr/lib/sane/libsane-net.so.1.3.1
+usr/lib/sane/libsane-niash.so
+usr/lib/sane/libsane-niash.so.1
+usr/lib/sane/libsane-niash.so.1.3.1
+usr/lib/sane/libsane-p5.so
+usr/lib/sane/libsane-p5.so.1
+usr/lib/sane/libsane-p5.so.1.3.1
+usr/lib/sane/libsane-pie.so
+usr/lib/sane/libsane-pie.so.1
+usr/lib/sane/libsane-pie.so.1.3.1
+usr/lib/sane/libsane-pieusb.so
+usr/lib/sane/libsane-pieusb.so.1
+usr/lib/sane/libsane-pieusb.so.1.3.1
+usr/lib/sane/libsane-pixma.so
+usr/lib/sane/libsane-pixma.so.1
+usr/lib/sane/libsane-pixma.so.1.3.1
+usr/lib/sane/libsane-plustek.so
+usr/lib/sane/libsane-plustek.so.1
+usr/lib/sane/libsane-plustek.so.1.3.1
+usr/lib/sane/libsane-plustek_pp.so
+usr/lib/sane/libsane-plustek_pp.so.1
+usr/lib/sane/libsane-plustek_pp.so.1.3.1
+usr/lib/sane/libsane-qcam.so
+usr/lib/sane/libsane-qcam.so.1
+usr/lib/sane/libsane-qcam.so.1.3.1
+usr/lib/sane/libsane-ricoh.so
+usr/lib/sane/libsane-ricoh.so.1
+usr/lib/sane/libsane-ricoh.so.1.3.1
+usr/lib/sane/libsane-ricoh2.so
+usr/lib/sane/libsane-ricoh2.so.1
+usr/lib/sane/libsane-ricoh2.so.1.3.1
+usr/lib/sane/libsane-rts8891.so
+usr/lib/sane/libsane-rts8891.so.1
+usr/lib/sane/libsane-rts8891.so.1.3.1
+usr/lib/sane/libsane-s9036.so
+usr/lib/sane/libsane-s9036.so.1
+usr/lib/sane/libsane-s9036.so.1.3.1
+usr/lib/sane/libsane-sceptre.so
+usr/lib/sane/libsane-sceptre.so.1
+usr/lib/sane/libsane-sceptre.so.1.3.1
+usr/lib/sane/libsane-sharp.so
+usr/lib/sane/libsane-sharp.so.1
+usr/lib/sane/libsane-sharp.so.1.3.1
+usr/lib/sane/libsane-sm3600.so
+usr/lib/sane/libsane-sm3600.so.1
+usr/lib/sane/libsane-sm3600.so.1.3.1
+usr/lib/sane/libsane-sm3840.so
+usr/lib/sane/libsane-sm3840.so.1
+usr/lib/sane/libsane-sm3840.so.1.3.1
+usr/lib/sane/libsane-snapscan.so
+usr/lib/sane/libsane-snapscan.so.1
+usr/lib/sane/libsane-snapscan.so.1.3.1
+usr/lib/sane/libsane-sp15c.so
+usr/lib/sane/libsane-sp15c.so.1
+usr/lib/sane/libsane-sp15c.so.1.3.1
+usr/lib/sane/libsane-st400.so
+usr/lib/sane/libsane-st400.so.1
+usr/lib/sane/libsane-st400.so.1.3.1
+usr/lib/sane/libsane-stv680.so
+usr/lib/sane/libsane-stv680.so.1
+usr/lib/sane/libsane-stv680.so.1.3.1
+usr/lib/sane/libsane-tamarack.so
+usr/lib/sane/libsane-tamarack.so.1
+usr/lib/sane/libsane-tamarack.so.1.3.1
+usr/lib/sane/libsane-teco1.so
+usr/lib/sane/libsane-teco1.so.1
+usr/lib/sane/libsane-teco1.so.1.3.1
+usr/lib/sane/libsane-teco2.so
+usr/lib/sane/libsane-teco2.so.1
+usr/lib/sane/libsane-teco2.so.1.3.1
+usr/lib/sane/libsane-teco3.so
+usr/lib/sane/libsane-teco3.so.1
+usr/lib/sane/libsane-teco3.so.1.3.1
+usr/lib/sane/libsane-test.so
+usr/lib/sane/libsane-test.so.1
+usr/lib/sane/libsane-test.so.1.3.1
+usr/lib/sane/libsane-u12.so
+usr/lib/sane/libsane-u12.so.1
+usr/lib/sane/libsane-u12.so.1.3.1
+usr/lib/sane/libsane-umax.so
+usr/lib/sane/libsane-umax.so.1
+usr/lib/sane/libsane-umax.so.1.3.1
+usr/lib/sane/libsane-umax1220u.so
+usr/lib/sane/libsane-umax1220u.so.1
+usr/lib/sane/libsane-umax1220u.so.1.3.1
+usr/lib/sane/libsane-umax_pp.so
+usr/lib/sane/libsane-umax_pp.so.1
+usr/lib/sane/libsane-umax_pp.so.1.3.1
+usr/lib/sane/libsane-v4l.so
+usr/lib/sane/libsane-v4l.so.1
+usr/lib/sane/libsane-v4l.so.1.3.1
+usr/lib/sane/libsane-xerox_mfp.so
+usr/lib/sane/libsane-xerox_mfp.so.1
+usr/lib/sane/libsane-xerox_mfp.so.1.3.1
+usr/lib/systemd/
+usr/lib/systemd/system/
+usr/lib/systemd/system/saned.socket
+usr/lib/systemd/system/saned@.service
+usr/lib/sysusers.d/
+usr/lib/sysusers.d/sane.conf
+usr/lib/udev/
+usr/lib/udev/hwdb.d/
+usr/lib/udev/hwdb.d/20-sane.hwdb
+usr/lib/udev/rules.d/
+usr/lib/udev/rules.d/65-sane.rules
+usr/lib/udev/rules.d/66-saned.rules
+usr/share/
+usr/share/doc/
+usr/share/doc/sane/
+usr/share/doc/sane/AUTHORS
+usr/share/doc/sane/COPYING
+usr/share/doc/sane/ChangeLog
+usr/share/doc/sane/LICENSE
+usr/share/doc/sane/NEWS
+usr/share/doc/sane/PROBLEMS
+usr/share/doc/sane/PROJECTS
+usr/share/doc/sane/README
+usr/share/doc/sane/README.aix
+usr/share/doc/sane/README.beos
+usr/share/doc/sane/README.darwin
+usr/share/doc/sane/README.djpeg
+usr/share/doc/sane/README.freebsd
+usr/share/doc/sane/README.hp-ux
+usr/share/doc/sane/README.linux
+usr/share/doc/sane/README.netbsd
+usr/share/doc/sane/README.openbsd
+usr/share/doc/sane/README.os2
+usr/share/doc/sane/README.solaris
+usr/share/doc/sane/README.unixware2
+usr/share/doc/sane/README.unixware7
+usr/share/doc/sane/README.windows
+usr/share/doc/sane/README.zeta
+usr/share/doc/sane/backend-writing.txt
+usr/share/doc/sane/canon/
+usr/share/doc/sane/canon/canon.changes
+usr/share/doc/sane/canon/canon.install2700F.txt
+usr/share/doc/sane/gt68xx/
+usr/share/doc/sane/gt68xx/gt68xx.CHANGES
+usr/share/doc/sane/gt68xx/gt68xx.TODO
+usr/share/doc/sane/leo/
+usr/share/doc/sane/leo/leo.txt
+usr/share/doc/sane/matsushita/
+usr/share/doc/sane/matsushita/matsushita.txt
+usr/share/doc/sane/mustek/
+usr/share/doc/sane/mustek/mustek.CHANGES
+usr/share/doc/sane/mustek_usb/
+usr/share/doc/sane/mustek_usb/mustek_usb.CHANGES
+usr/share/doc/sane/mustek_usb/mustek_usb.TODO
+usr/share/doc/sane/mustek_usb2/
+usr/share/doc/sane/mustek_usb2/mustek_usb2.CHANGES
+usr/share/doc/sane/mustek_usb2/mustek_usb2.TODO
+usr/share/doc/sane/niash/
+usr/share/doc/sane/niash/niash.TODO
+usr/share/doc/sane/plustek/
+usr/share/doc/sane/plustek/FAQ
+usr/share/doc/sane/plustek/Plustek-PARPORT-TODO.txt
+usr/share/doc/sane/plustek/Plustek-PARPORT.changes
+usr/share/doc/sane/plustek/Plustek-PARPORT.txt
+usr/share/doc/sane/plustek/Plustek-USB-TODO.txt
+usr/share/doc/sane/plustek/Plustek-USB.changes
+usr/share/doc/sane/plustek/Plustek-USB.txt
+usr/share/doc/sane/sane-backends-external.html
+usr/share/doc/sane/sane-backends.html
+usr/share/doc/sane/sane-mfgs-external.html
+usr/share/doc/sane/sane-mfgs.html
+usr/share/doc/sane/saned/
+usr/share/doc/sane/saned/saned.install.md
+usr/share/doc/sane/sceptre/
+usr/share/doc/sane/sceptre/s1200.txt
+usr/share/doc/sane/teco/
+usr/share/doc/sane/teco/teco1.txt
+usr/share/doc/sane/teco/teco2.txt
+usr/share/doc/sane/teco/teco3.txt
+usr/share/doc/sane/u12/
+usr/share/doc/sane/u12/U12.changes
+usr/share/doc/sane/u12/U12.todo
+usr/share/doc/sane/umax/
+usr/share/doc/sane/umax/negative-types.txt
+usr/share/doc/sane/umax/sane-logo.jpg
+usr/share/doc/sane/umax/sane-umax-advanced-options-doc.html
+usr/share/doc/sane/umax/sane-umax-advanced.jpg
+usr/share/doc/sane/umax/sane-umax-astra-doc.html
+usr/share/doc/sane/umax/sane-umax-config-doc.html
+usr/share/doc/sane/umax/sane-umax-doc.html
+usr/share/doc/sane/umax/sane-umax-histogram.jpg
+usr/share/doc/sane/umax/sane-umax-mirage-doc.html
+usr/share/doc/sane/umax/sane-umax-not-listed-doc.html
+usr/share/doc/sane/umax/sane-umax-others-doc.html
+usr/share/doc/sane/umax/sane-umax-parport-doc.html
+usr/share/doc/sane/umax/sane-umax-powerlook-doc.html
+usr/share/doc/sane/umax/sane-umax-scanner-clones-doc.html
+usr/share/doc/sane/umax/sane-umax-speed-doc.html
+usr/share/doc/sane/umax/sane-umax-standard-options-doc.html
+usr/share/doc/sane/umax/sane-umax-standard.jpg
+usr/share/doc/sane/umax/sane-umax-text.jpg
+usr/share/doc/sane/umax/sane-umax-text2.jpg
+usr/share/doc/sane/umax/sane-umax-text4.jpg
+usr/share/doc/sane/umax/sane-umax-uc-doc.html
+usr/share/doc/sane/umax/sane-umax-vista-doc.html
+usr/share/doc/sane/umax/sane-umax.jpg
+usr/share/doc/sane/umax/umax.BUGS
+usr/share/doc/sane/umax/umax.CHANGES
+usr/share/doc/sane/umax/umax.FAQ
+usr/share/doc/sane/umax/umax.TODO
+usr/share/licenses/
+usr/share/licenses/sane/
+usr/share/licenses/sane/LicenseRef-GPL-2.0-or-later-with-linking-exception.txt
+usr/share/locale/
+usr/share/locale/bg/
+usr/share/locale/bg/LC_MESSAGES/
+usr/share/locale/bg/LC_MESSAGES/sane-backends.mo
+usr/share/locale/ca/
+usr/share/locale/ca/LC_MESSAGES/
+usr/share/locale/ca/LC_MESSAGES/sane-backends.mo
+usr/share/locale/ca@valencia/
+usr/share/locale/ca@valencia/LC_MESSAGES/
+usr/share/locale/ca@valencia/LC_MESSAGES/sane-backends.mo
+usr/share/locale/cs/
+usr/share/locale/cs/LC_MESSAGES/
+usr/share/locale/cs/LC_MESSAGES/sane-backends.mo
+usr/share/locale/da/
+usr/share/locale/da/LC_MESSAGES/
+usr/share/locale/da/LC_MESSAGES/sane-backends.mo
+usr/share/locale/de/
+usr/share/locale/de/LC_MESSAGES/
+usr/share/locale/de/LC_MESSAGES/sane-backends.mo
+usr/share/locale/en@boldquot/
+usr/share/locale/en@boldquot/LC_MESSAGES/
+usr/share/locale/en@boldquot/LC_MESSAGES/sane-backends.mo
+usr/share/locale/en@quot/
+usr/share/locale/en@quot/LC_MESSAGES/
+usr/share/locale/en@quot/LC_MESSAGES/sane-backends.mo
+usr/share/locale/en_GB/
+usr/share/locale/en_GB/LC_MESSAGES/
+usr/share/locale/en_GB/LC_MESSAGES/sane-backends.mo
+usr/share/locale/eo/
+usr/share/locale/eo/LC_MESSAGES/
+usr/share/locale/eo/LC_MESSAGES/sane-backends.mo
+usr/share/locale/es/
+usr/share/locale/es/LC_MESSAGES/
+usr/share/locale/es/LC_MESSAGES/sane-backends.mo
+usr/share/locale/fi/
+usr/share/locale/fi/LC_MESSAGES/
+usr/share/locale/fi/LC_MESSAGES/sane-backends.mo
+usr/share/locale/fr/
+usr/share/locale/fr/LC_MESSAGES/
+usr/share/locale/fr/LC_MESSAGES/sane-backends.mo
+usr/share/locale/gl/
+usr/share/locale/gl/LC_MESSAGES/
+usr/share/locale/gl/LC_MESSAGES/sane-backends.mo
+usr/share/locale/he/
+usr/share/locale/he/LC_MESSAGES/
+usr/share/locale/he/LC_MESSAGES/sane-backends.mo
+usr/share/locale/hu/
+usr/share/locale/hu/LC_MESSAGES/
+usr/share/locale/hu/LC_MESSAGES/sane-backends.mo
+usr/share/locale/it/
+usr/share/locale/it/LC_MESSAGES/
+usr/share/locale/it/LC_MESSAGES/sane-backends.mo
+usr/share/locale/ja/
+usr/share/locale/ja/LC_MESSAGES/
+usr/share/locale/ja/LC_MESSAGES/sane-backends.mo
+usr/share/locale/ka/
+usr/share/locale/ka/LC_MESSAGES/
+usr/share/locale/ka/LC_MESSAGES/sane-backends.mo
+usr/share/locale/nb/
+usr/share/locale/nb/LC_MESSAGES/
+usr/share/locale/nb/LC_MESSAGES/sane-backends.mo
+usr/share/locale/nl/
+usr/share/locale/nl/LC_MESSAGES/
+usr/share/locale/nl/LC_MESSAGES/sane-backends.mo
+usr/share/locale/pl/
+usr/share/locale/pl/LC_MESSAGES/
+usr/share/locale/pl/LC_MESSAGES/sane-backends.mo
+usr/share/locale/pt/
+usr/share/locale/pt/LC_MESSAGES/
+usr/share/locale/pt/LC_MESSAGES/sane-backends.mo
+usr/share/locale/ru/
+usr/share/locale/ru/LC_MESSAGES/
+usr/share/locale/ru/LC_MESSAGES/sane-backends.mo
+usr/share/locale/sv/
+usr/share/locale/sv/LC_MESSAGES/
+usr/share/locale/sv/LC_MESSAGES/sane-backends.mo
+usr/share/locale/uk/
+usr/share/locale/uk/LC_MESSAGES/
+usr/share/locale/uk/LC_MESSAGES/sane-backends.mo
+usr/share/locale/zh_CN/
+usr/share/locale/zh_CN/LC_MESSAGES/
+usr/share/locale/zh_CN/LC_MESSAGES/sane-backends.mo
+usr/share/man/
+usr/share/man/man1/
+usr/share/man/man1/gamma4scanimage.1.gz
+usr/share/man/man1/sane-config.1.gz
+usr/share/man/man1/sane-find-scanner.1.gz
+usr/share/man/man1/scanimage.1.gz
+usr/share/man/man5/
+usr/share/man/man5/sane-abaton.5.gz
+usr/share/man/man5/sane-agfafocus.5.gz
+usr/share/man/man5/sane-apple.5.gz
+usr/share/man/man5/sane-artec.5.gz
+usr/share/man/man5/sane-artec_eplus48u.5.gz
+usr/share/man/man5/sane-as6e.5.gz
+usr/share/man/man5/sane-avision.5.gz
+usr/share/man/man5/sane-bh.5.gz
+usr/share/man/man5/sane-canon.5.gz
+usr/share/man/man5/sane-canon630u.5.gz
+usr/share/man/man5/sane-canon_dr.5.gz
+usr/share/man/man5/sane-canon_lide70.5.gz
+usr/share/man/man5/sane-canon_pp.5.gz
+usr/share/man/man5/sane-cardscan.5.gz
+usr/share/man/man5/sane-coolscan.5.gz
+usr/share/man/man5/sane-coolscan2.5.gz
+usr/share/man/man5/sane-coolscan3.5.gz
+usr/share/man/man5/sane-dc210.5.gz
+usr/share/man/man5/sane-dc240.5.gz
+usr/share/man/man5/sane-dc25.5.gz
+usr/share/man/man5/sane-dll.5.gz
+usr/share/man/man5/sane-dmc.5.gz
+usr/share/man/man5/sane-epjitsu.5.gz
+usr/share/man/man5/sane-epson.5.gz
+usr/share/man/man5/sane-epson2.5.gz
+usr/share/man/man5/sane-epsonds.5.gz
+usr/share/man/man5/sane-escl.5.gz
+usr/share/man/man5/sane-fujitsu.5.gz
+usr/share/man/man5/sane-genesys.5.gz
+usr/share/man/man5/sane-gphoto2.5.gz
+usr/share/man/man5/sane-gt68xx.5.gz
+usr/share/man/man5/sane-hp.5.gz
+usr/share/man/man5/sane-hp3500.5.gz
+usr/share/man/man5/sane-hp3900.5.gz
+usr/share/man/man5/sane-hp4200.5.gz
+usr/share/man/man5/sane-hp5400.5.gz
+usr/share/man/man5/sane-hp5590.5.gz
+usr/share/man/man5/sane-hpljm1005.5.gz
+usr/share/man/man5/sane-hpsj5s.5.gz
+usr/share/man/man5/sane-hs2p.5.gz
+usr/share/man/man5/sane-ibm.5.gz
+usr/share/man/man5/sane-kodak.5.gz
+usr/share/man/man5/sane-kodakaio.5.gz
+usr/share/man/man5/sane-kvs1025.5.gz
+usr/share/man/man5/sane-kvs20xx.5.gz
+usr/share/man/man5/sane-kvs40xx.5.gz
+usr/share/man/man5/sane-leo.5.gz
+usr/share/man/man5/sane-lexmark.5.gz
+usr/share/man/man5/sane-lexmark_x2600.5.gz
+usr/share/man/man5/sane-ma1509.5.gz
+usr/share/man/man5/sane-magicolor.5.gz
+usr/share/man/man5/sane-matsushita.5.gz
+usr/share/man/man5/sane-microtek.5.gz
+usr/share/man/man5/sane-microtek2.5.gz
+usr/share/man/man5/sane-mustek.5.gz
+usr/share/man/man5/sane-mustek_pp.5.gz
+usr/share/man/man5/sane-mustek_usb.5.gz
+usr/share/man/man5/sane-mustek_usb2.5.gz
+usr/share/man/man5/sane-nec.5.gz
+usr/share/man/man5/sane-net.5.gz
+usr/share/man/man5/sane-niash.5.gz
+usr/share/man/man5/sane-p5.5.gz
+usr/share/man/man5/sane-pie.5.gz
+usr/share/man/man5/sane-pieusb.5.gz
+usr/share/man/man5/sane-pixma.5.gz
+usr/share/man/man5/sane-plustek.5.gz
+usr/share/man/man5/sane-plustek_pp.5.gz
+usr/share/man/man5/sane-qcam.5.gz
+usr/share/man/man5/sane-ricoh.5.gz
+usr/share/man/man5/sane-ricoh2.5.gz
+usr/share/man/man5/sane-rts8891.5.gz
+usr/share/man/man5/sane-s9036.5.gz
+usr/share/man/man5/sane-sceptre.5.gz
+usr/share/man/man5/sane-scsi.5.gz
+usr/share/man/man5/sane-sharp.5.gz
+usr/share/man/man5/sane-sm3600.5.gz
+usr/share/man/man5/sane-sm3840.5.gz
+usr/share/man/man5/sane-snapscan.5.gz
+usr/share/man/man5/sane-sp15c.5.gz
+usr/share/man/man5/sane-st400.5.gz
+usr/share/man/man5/sane-stv680.5.gz
+usr/share/man/man5/sane-tamarack.5.gz
+usr/share/man/man5/sane-teco1.5.gz
+usr/share/man/man5/sane-teco2.5.gz
+usr/share/man/man5/sane-teco3.5.gz
+usr/share/man/man5/sane-test.5.gz
+usr/share/man/man5/sane-u12.5.gz
+usr/share/man/man5/sane-umax.5.gz
+usr/share/man/man5/sane-umax1220u.5.gz
+usr/share/man/man5/sane-umax_pp.5.gz
+usr/share/man/man5/sane-usb.5.gz
+usr/share/man/man5/sane-v4l.5.gz
+usr/share/man/man5/sane-xerox_mfp.5.gz
+usr/share/man/man7/
+usr/share/man/man7/sane.7.gz
+usr/share/man/man8/
+usr/share/man/man8/saned.8.gz
+usr/share/sane/
+usr/share/sane/artec_eplus48u/
+usr/share/sane/epjitsu/
+usr/share/sane/gt68xx/
+usr/share/sane/snapscan/
+
+%BACKUP%
+etc/sane.d/abaton.conf	51591e7ab98851effab49089323cb160
+etc/sane.d/agfafocus.conf	5eed67a9759c991553fa3055af023a33
+etc/sane.d/apple.conf	602eda3ecedd81ef751d9241becb9142
+etc/sane.d/artec.conf	a6c84538ac935599010b2f8647763fb4
+etc/sane.d/artec_eplus48u.conf	37793e38db4e8d3077deccf59574f544
+etc/sane.d/avision.conf	8c8ad4cdee2520722b30dd55cf959a66
+etc/sane.d/bh.conf	ed8e137983ae58a7bf038180b29737bd
+etc/sane.d/canon.conf	099d16dab225eaa121f1ba2f3af9f60a
+etc/sane.d/canon630u.conf	5fae93df3328f1915e3d26f77a8c3b9d
+etc/sane.d/canon_dr.conf	324ef4853dd3b10ea5ee20d25c7a98b7
+etc/sane.d/canon_lide70.conf	b41e25cff0911da9e841da9dbd881468
+etc/sane.d/canon_pp.conf	cb5572aa856a33b6d4a664f75b12419d
+etc/sane.d/cardscan.conf	9c5c8998c0b2bf2cb4c3d65572cad11b
+etc/sane.d/coolscan.conf	b5a49230bc9b80a4358d966255d4697a
+etc/sane.d/coolscan2.conf	99f708bbb41c16cae21689810219f26d
+etc/sane.d/coolscan3.conf	4b21a365f8904cdac9364b03dd184dcb
+etc/sane.d/dc210.conf	706a20e6babc707e9a3d002b2c130af3
+etc/sane.d/dc240.conf	706a20e6babc707e9a3d002b2c130af3
+etc/sane.d/dc25.conf	33d22fb9c1a89c6401d8038fc7d4d9d1
+etc/sane.d/dell1600n_net.conf	460d4fc102dce06a4cfbd74d706a5821
+etc/sane.d/dll.conf	a422c5417409f976594cf42ba77d6a1a
+etc/sane.d/dmc.conf	0731b2373c97cc98c5c42dd56e7fb05c
+etc/sane.d/epjitsu.conf	672e86f3c41daf44417fda5fe117499f
+etc/sane.d/epson.conf	8e6460297a25aa3d87f15c61ed1bc704
+etc/sane.d/epson2.conf	cdf9d48d7055af06ae71cb7be2ce0a47
+etc/sane.d/epsonds.conf	2c53c63bce55cc1f2d8ac50291051949
+etc/sane.d/escl.conf	921c6515cda8b53b297e88707ac29cd5
+etc/sane.d/fujitsu.conf	14f1421f85bc2442d6eac6f51f8ae735
+etc/sane.d/genesys.conf	18f4ef9f53c502a452569ed901e18256
+etc/sane.d/gphoto2.conf	e8719416c6db84826a0e6989bc504313
+etc/sane.d/gt68xx.conf	2ee0d628b9f0ceac8f162a75eb22107d
+etc/sane.d/hp.conf	5328dfe188ece714bf9fdb7e26dc9d00
+etc/sane.d/hp3900.conf	87911391a86154be9ccdb69f7d784df4
+etc/sane.d/hp4200.conf	0656916d9805c3af1f81424354082501
+etc/sane.d/hp5400.conf	25848f289fb76aeb7f78e29ab323dbf8
+etc/sane.d/hpsj5s.conf	1d62cae3823a5e7eabed4782f2bcd957
+etc/sane.d/hs2p.conf	a7b07bd2a66b8a562ccb64da03bd47da
+etc/sane.d/ibm.conf	d5eab60adbaf729bb5bf781fc4c5409d
+etc/sane.d/kodak.conf	63774fc2dd277fbfc54b4a8f7ea4528d
+etc/sane.d/kodakaio.conf	95258c07a302e626079de703611ba8c8
+etc/sane.d/kvs1025.conf	1e499dabfb5bbbf7439a06b08f7e2af3
+etc/sane.d/leo.conf	ca930f48c3eb229a42f75e1cd202372e
+etc/sane.d/lexmark.conf	f5d92658f9dc0eb540ddc9d24fe3ffb1
+etc/sane.d/lexmark_x2600.conf	50f87f995eb4a23222aff7d1686eee70
+etc/sane.d/ma1509.conf	73a9fd7af5924e04054f43e2708f5059
+etc/sane.d/magicolor.conf	2302a9e97306507ce123589b94a0f661
+etc/sane.d/matsushita.conf	488159987217b24c3b894e04b06bf160
+etc/sane.d/microtek.conf	940c8db7e01ccaa6f2c5be2ca020ddf1
+etc/sane.d/microtek2.conf	75cb498c51441db57932a4895f7f0d96
+etc/sane.d/mustek.conf	fe011ee10dcf736d248dfae201ebdf10
+etc/sane.d/mustek_pp.conf	336022031acb24c2cd7ab7f1404fe912
+etc/sane.d/mustek_usb.conf	5215ba7a35da6296d6190015416e1343
+etc/sane.d/nec.conf	5eed67a9759c991553fa3055af023a33
+etc/sane.d/net.conf	9e5860565491b3157e3c6e0af682b7a2
+etc/sane.d/p5.conf	27277daf6f7ed1f21de8c6a59d5b9488
+etc/sane.d/pie.conf	7bdb319bd61b19389e93ed85a1ed85d1
+etc/sane.d/pieusb.conf	fe865d4b7a91aaeee0bdb48396810f6c
+etc/sane.d/pixma.conf	ea1832a99220af4207c72dd280abaef7
+etc/sane.d/plustek.conf	2e8bc084d7579841a08cdce0a05e79a5
+etc/sane.d/plustek_pp.conf	1ce5ce7617565568d0805dfbee86b001
+etc/sane.d/qcam.conf	7a30e22cd391b7992646723df280f4fe
+etc/sane.d/ricoh.conf	b1891143384a7308ec17d9e6ac836201
+etc/sane.d/rts8891.conf	3446a737f83b38c3b576d5bf2e5161ec
+etc/sane.d/s9036.conf	5eed67a9759c991553fa3055af023a33
+etc/sane.d/saned.conf	f68e0a92c8d4207a7d3f35c36f38ca3d
+etc/sane.d/sceptre.conf	9d7e8954714b47042b849ddbd2530973
+etc/sane.d/sharp.conf	7f3027ead76f557ab7aa5462c1d2f9f7
+etc/sane.d/sm3840.conf	9b61359cbcc14b9be4d687b80b772bea
+etc/sane.d/snapscan.conf	b349efcbcec257f5fca8372f1e47e7e0
+etc/sane.d/sp15c.conf	74fd71c4ea2c8c58bbaa2cecfee56f7c
+etc/sane.d/st400.conf	b1587f9f8adafcaa86c8e0a371ae15e8
+etc/sane.d/stv680.conf	1a5a8d37f0de964bab25b3908fa907d5
+etc/sane.d/tamarack.conf	d6f865e3be45993ecb14a951bae465fc
+etc/sane.d/teco1.conf	7976c7a3dd90fe100f30a23a29aaea89
+etc/sane.d/teco2.conf	a770de18a683f0406ff52928ee617474
+etc/sane.d/teco3.conf	7b632784a85ec6ead7d26e8fd195dea5
+etc/sane.d/test.conf	eaccee9d3fb610a691705ddf94b9ec11
+etc/sane.d/u12.conf	1ad837b7580899024a33b3e4a8bdd3d4
+etc/sane.d/umax.conf	bf4a34f1425bda06c6c96e9b75c31ce2
+etc/sane.d/umax1220u.conf	2d36f1f6c15bbfeaf2049d59dcfefe05
+etc/sane.d/umax_pp.conf	f9b7efaecbffb9a180961489fc893fc2
+etc/sane.d/v4l.conf	4c4c4800c99aa6eeefbdc67805a69bf3
+etc/sane.d/xerox_mfp.conf	7ca9c110b512b6fa3b3f3080f0951a85
+

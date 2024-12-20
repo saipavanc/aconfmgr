@@ -1,0 +1,11 @@
+%FILES%
+etc/
+etc/eos-packagelist.profiles
+usr/
+usr/bin/
+usr/bin/eos-packagelist
+usr/share/
+usr/share/bash-completion/
+usr/share/bash-completion/completions/
+usr/share/bash-completion/completions/eos-packagelist
+

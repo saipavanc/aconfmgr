@@ -1,0 +1,37 @@
+%NAME%
+foomatic-db-ppds
+
+%VERSION%
+3:20240209-1
+
+%BASE%
+foomatic-db
+
+%DESC%
+Foomatic - PPDs from printer manufacturers
+
+%URL%
+http://www.linuxprinting.org/foomatic.html
+
+%ARCH%
+any
+
+%BUILDDATE%
+1708451191
+
+%INSTALLDATE%
+1733716472
+
+%PACKAGER%
+Andreas Radke <andyrtr@archlinux.org>
+
+%SIZE%
+86414281
+
+%LICENSE%
+GPL-2.0-or-later
+MIT
+
+%VALIDATION%
+pgp
+

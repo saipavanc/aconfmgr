@@ -1,0 +1,59 @@
+%NAME%
+qt6-speech
+
+%VERSION%
+6.8.1-1
+
+%BASE%
+qt6-speech
+
+%DESC%
+Qt Speech support
+
+%URL%
+https://www.qt.io
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1733145395
+
+%INSTALLDATE%
+1733716475
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%SIZE%
+558141
+
+%REASON%
+1
+
+%GROUPS%
+qt6
+
+%LICENSE%
+GPL-3.0-only
+LGPL-3.0-only
+LicenseRef-Qt-Commercial
+Qt-GPL-exception-1.0
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+gcc-libs
+glibc
+qt6-base
+qt6-multimedia
+
+%OPTDEPENDS%
+flite: flite TTS backend
+speech-dispatcher: speech-dispatcher TTS backend
+qt6-declarative: QML bindings
+
+%XDATA%
+pkgtype=pkg
+

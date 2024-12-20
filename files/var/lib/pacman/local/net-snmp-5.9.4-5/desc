@@ -1,0 +1,64 @@
+%NAME%
+net-snmp
+
+%VERSION%
+5.9.4-5
+
+%BASE%
+net-snmp
+
+%DESC%
+A suite of applications used to implement SNMP v1, SNMP v2c and SNMP v3 using both IPv4 and IPv6
+
+%URL%
+http://www.net-snmp.org/
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1725201324
+
+%INSTALLDATE%
+1733716472
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%SIZE%
+8945804
+
+%REASON%
+1
+
+%LICENSE%
+BSD
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+libnsl
+libpcap
+lm_sensors
+openssl
+pciutils
+pcre2
+perl
+
+%OPTDEPENDS%
+perl-term-readkey: for snmpcheck application
+perl-tk: for snmpcheck and tkmib applications
+python: for the python modules
+
+%PROVIDES%
+libnetsnmpagent.so=40-64
+libnetsnmphelpers.so=40-64
+libnetsnmpmibs.so=40-64
+libnetsnmp.so=40-64
+libnetsnmptrapd.so=40-64
+libsnmp.so=40-64
+
+%XDATA%
+pkgtype=pkg
+

@@ -1,0 +1,47 @@
+%NAME%
+mtools
+
+%VERSION%
+1:4.0.46-1
+
+%BASE%
+mtools
+
+%DESC%
+A collection of utilities to access MS-DOS disks
+
+%URL%
+https://www.gnu.org/software/mtools/
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1732222390
+
+%INSTALLDATE%
+1733716464
+
+%PACKAGER%
+David Runge <dvzrv@archlinux.org>
+
+%SIZE%
+399873
+
+%LICENSE%
+GPL-3.0-or-later
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+bash
+glibc
+
+%OPTDEPENDS%
+libx11: required by floppyd
+libxau: required by floppyd
+
+%XDATA%
+pkgtype=pkg
+

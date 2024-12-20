@@ -1,0 +1,39 @@
+%NAME%
+foomatic-db-gutenprint-ppds
+
+%VERSION%
+5.3.4-3
+
+%BASE%
+gutenprint
+
+%DESC%
+simplified prebuilt ppd files
+
+%URL%
+http://gimp-print.sourceforge.net/
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1696101929
+
+%INSTALLDATE%
+1733716472
+
+%PACKAGER%
+Andreas Radke <andyrtr@archlinux.org>
+
+%SIZE%
+93102051
+
+%LICENSE%
+GPL
+
+%VALIDATION%
+pgp
+
+%OPTDEPENDS%
+cups: to use cups printer spooler(recommended)
+

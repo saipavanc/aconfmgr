@@ -1,0 +1,55 @@
+%NAME%
+libinput
+
+%VERSION%
+1.27.0-1
+
+%BASE%
+libinput
+
+%DESC%
+Input device management and event handling library
+
+%URL%
+https://gitlab.freedesktop.org/libinput/libinput
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1732031525
+
+%INSTALLDATE%
+1733716459
+
+%PACKAGER%
+Andreas Radke <andyrtr@archlinux.org>
+
+%SIZE%
+1189097
+
+%REASON%
+1
+
+%LICENSE%
+MIT
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+mtdev
+libevdev
+libwacom
+systemd-libs
+glibc
+
+%OPTDEPENDS%
+gtk4: libinput debug-gui
+python-pyudev: libinput measure
+python-libevdev: libinput measure
+python-yaml: used by various tools
+
+%XDATA%
+pkgtype=pkg
+

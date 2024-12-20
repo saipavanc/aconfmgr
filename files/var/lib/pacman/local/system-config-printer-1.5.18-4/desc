@@ -1,0 +1,60 @@
+%NAME%
+system-config-printer
+
+%VERSION%
+1.5.18-4
+
+%BASE%
+system-config-printer
+
+%DESC%
+A CUPS printer configuration tool and status applet
+
+%URL%
+https://github.com/OpenPrinting/system-config-printer
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1714748966
+
+%INSTALLDATE%
+1733716472
+
+%PACKAGER%
+Andreas Radke <andyrtr@archlinux.org>
+
+%SIZE%
+8479690
+
+%LICENSE%
+GPL-2.0-or-later
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+python-pycups
+python-dbus
+libnotify
+python-gobject
+gtk3
+python-cairo
+libusb
+pango
+glib2
+libcups
+systemd-libs
+glibc
+gdk-pixbuf2
+sh
+
+%OPTDEPENDS%
+libsecret: password management
+python-pysmbc: SMB browser support
+cups-pk-helper: PolicyKit helper to configure cups with fine-grained privileges
+
+%XDATA%
+pkgtype=pkg
+

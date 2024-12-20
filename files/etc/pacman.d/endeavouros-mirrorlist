@@ -1,0 +1,56 @@
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# EndeavourOS mirrorlist, ranked by eos-rankmirrors at 12/13/2024 12:17:20 PM.
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Server = https://mirror.rznet.fr/endeavouros/repo/$repo/$arch
+Server = https://repo.c48.uk/endeavouros/repo/$repo/$arch
+Server = https://md.mirrors.hacktegic.com/endeavouros/repo/$repo/$arch
+Server = https://mirror.moson.org/endeavouros/repo/$repo/$arch
+Server = https://mirrors.nxtgen.com/endeavouros-mirror/repo/$repo/$arch
+Server = https://mirror.accum.se/mirror/endeavouros/repo/$repo/$arch
+Server = https://ftp.rz.tu-bs.de/pub/mirror/endeavouros/repo/$repo/$arch
+Server = https://mirror.funami.tech/endeavouros/repo/$repo/$arch
+Server = https://ftp.belnet.be/mirror/endeavouros/repo/$repo/$arch
+Server = https://www.miraa.jp/endeavouros/repo/$repo/$arch
+Server = https://mirrors.c0urier.net/linux/endeavouros/repo/$repo/$arch
+Server = https://mirrors.jlu.edu.cn/endeavouros/repo/$repo/$arch
+Server = https://mirror.freedif.org/EndeavourOS/repo/$repo/$arch
+Server = https://mirror.alpix.eu/endeavouros/repo/$repo/$arch
+Server = https://mirrors.tuna.tsinghua.edu.cn/endeavouros/repo/$repo/$arch
+Server = https://fastmirror.pp.ua/endeavouros/repo/$repo/$arch
+Server = https://mirror.sjtu.edu.cn/endeavouros/repo/$repo/$arch
+Server = https://mirror.archlinux.tw/EndeavourOS/repo/$repo/$arch
+Server = https://mirrors.gigenet.com/endeavouros/repo/$repo/$arch
+Server = https://mirror.jingk.ai/endeavouros/repo/$repo/$arch
+Server = https://fosszone.csd.auth.gr/endeavouros/repo/$repo/$arch
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Mirror ranking info at (UTC) 12/13/2024 06:17:20 PM:
+# The following fields are shown for each mirror:
+#   mirror:          The mirror address
+#   update-level:    Ordinal number of the latest update (larger is newer)
+#   fetch-time:      Measures the speed of the mirror (smaller is faster)
+#
+# mirror                                                             update-level  fetch-time
+# ~~~~~~                                                             ~~~~~~~~~~~~  ~~~~~~~~~~
+# https://mirror.rznet.fr/endeavouros/repo/$repo/$arch               2274          0.308623
+# https://repo.c48.uk/endeavouros/repo/$repo/$arch                   2274          0.445998
+# https://md.mirrors.hacktegic.com/endeavouros/repo/$repo/$arch      2274          0.787241
+# https://mirror.moson.org/endeavouros/repo/$repo/$arch              2274          0.793187
+# https://mirrors.nxtgen.com/endeavouros-mirror/repo/$repo/$arch     2274          0.835637
+# https://mirror.accum.se/mirror/endeavouros/repo/$repo/$arch        2274          0.891029
+# https://ftp.rz.tu-bs.de/pub/mirror/endeavouros/repo/$repo/$arch    2274          0.902890
+# https://mirror.funami.tech/endeavouros/repo/$repo/$arch            2274          0.991541
+# https://ftp.belnet.be/mirror/endeavouros/repo/$repo/$arch          2274          1.048369
+# https://www.miraa.jp/endeavouros/repo/$repo/$arch                  2274          1.065562
+# https://mirrors.c0urier.net/linux/endeavouros/repo/$repo/$arch     2274          1.168345
+# https://mirrors.jlu.edu.cn/endeavouros/repo/$repo/$arch            2274          1.344884
+# https://mirror.freedif.org/EndeavourOS/repo/$repo/$arch            2274          1.405583
+# https://mirror.alpix.eu/endeavouros/repo/$repo/$arch               2274          1.506615
+# https://mirrors.tuna.tsinghua.edu.cn/endeavouros/repo/$repo/$arch  2274          1.564852
+# https://fastmirror.pp.ua/endeavouros/repo/$repo/$arch              2274          2.631029
+# https://mirror.sjtu.edu.cn/endeavouros/repo/$repo/$arch            2274          3.554048
+# https://mirror.archlinux.tw/EndeavourOS/repo/$repo/$arch           2274          21.068032
+# https://mirrors.gigenet.com/endeavouros/repo/$repo/$arch           2273          0.035267
+# https://mirror.jingk.ai/endeavouros/repo/$repo/$arch               2273          0.788840
+# https://fosszone.csd.auth.gr/endeavouros/repo/$repo/$arch          2273          1.025245
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
